@@ -1,0 +1,140 @@
+term,n_runs,majority_class,stability,majority_tie,distinct_classes,all_classes,model_majority_class,valid_first_attempt_rate,repair_rate,fallback_rate,ambiguous_rate,genus_verified_rate,anchor_rate,source_conflict_rate,validator_changed_class_rate,prompt_version,gold_ontology,vs_gold_ontology,model_vs_gold_ontology,dist_gold_ontology,run_exact_gold_ontology,exact_with_any,compatible_with_any
+carbon dioxide pooling disposition,3,disposition,1.0,False,1,disposition×3,disposition,1.0,0.0,0.0,0.0,1.0,1.0,0.0,0.0,v4.1,disposition,exact,exact,0,1.0,True,True
+carbon pooling disposition,3,disposition,1.0,False,1,disposition×3,disposition,1.0,0.0,0.0,0.0,1.0,1.0,0.0,0.0,v4.1,disposition,exact,exact,0,1.0,True,True
+cosmic ray shielding disposition,3,disposition,1.0,False,1,disposition×3,disposition,1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,v4.1,disposition,exact,exact,0,1.0,True,True
+electric energy,3,specifically_dependent_continuant,0.667,False,2,specifically_dependent_continuant×2; continuant×1,specifically_dependent_continuant,1.0,0.0,0.0,1.0,1.0,0.0,0.0,0.0,v4.1,disposition,agent_more_general,agent_more_general,2,0.0,False,True
+energy,3,disposition,1.0,False,1,disposition×3,disposition,1.0,0.0,0.0,0.0,1.0,1.0,0.0,0.0,v4.1,disposition,exact,exact,0,1.0,True,True
+environmental disposition,3,disposition,1.0,False,1,disposition×3,disposition,1.0,0.0,0.0,0.0,1.0,1.0,0.0,0.0,v4.1,disposition,exact,exact,0,1.0,True,True
+gravitational energy,3,specifically_dependent_continuant,1.0,False,1,specifically_dependent_continuant×3,specifically_dependent_continuant,1.0,0.0,0.0,1.0,1.0,0.0,0.0,0.0,v4.1,disposition,agent_more_general,agent_more_general,2,0.0,False,True
+material pooling disposition,3,disposition,1.0,False,1,disposition×3,disposition,1.0,0.0,0.0,0.0,1.0,1.0,0.0,0.0,v4.1,disposition,exact,exact,0,1.0,True,True
+mechanical wave energy,3,disposition,1.0,False,1,disposition×3,disposition,1.0,0.0,0.0,1.0,1.0,0.0,0.0,0.0,v4.1,disposition,exact,exact,0,1.0,True,True
+net shortwave radiation,3,continuant,1.0,False,1,continuant×3,continuant,1.0,0.0,0.0,1.0,1.0,0.0,0.0,0.0,v4.1,disposition,agent_more_general,agent_more_general,3,0.0,False,True
+potential energy,3,specifically_dependent_continuant,1.0,False,1,specifically_dependent_continuant×3,specifically_dependent_continuant,1.0,0.0,0.0,1.0,1.0,0.0,0.0,0.0,v4.1,disposition,agent_more_general,agent_more_general,2,0.0,False,True
+thermal energy,3,continuant,0.667,False,2,continuant×2; realizable_entity×1,continuant,1.0,0.0,0.0,1.0,1.0,0.0,0.0,0.0,v4.1,disposition,agent_more_general,agent_more_general,3,0.0,False,True
+thermoplasticity,3,disposition,1.0,False,1,disposition×3,disposition,1.0,0.0,0.0,0.0,1.0,1.0,0.0,0.0,v4.1,disposition,exact,exact,0,1.0,True,True
+thermosetting disposition,3,disposition,1.0,False,1,disposition×3,disposition,1.0,0.0,0.0,0.0,1.0,1.0,0.0,0.0,v4.1,disposition,exact,exact,0,1.0,True,True
+wind wave energy,3,realizable_entity,1.0,False,1,realizable_entity×3,realizable_entity,1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,v4.1,disposition,agent_more_general,agent_more_general,1,0.0,False,True
+anthropised terrestrial environmental zone,3,independent_continuant,0.667,False,2,independent_continuant×2; immaterial_entity×1,independent_continuant,1.0,0.0,0.0,1.0,1.0,0.0,0.0,0.0,v4.1,fiat_object_part,agent_more_general,agent_more_general,2,0.0,False,True
+area of cropland,3,immaterial_entity,1.0,False,1,immaterial_entity×3,immaterial_entity,1.0,0.0,0.0,1.0,1.0,0.0,0.0,0.0,v4.1,fiat_object_part,other_branch,other_branch,3,0.0,False,False
+area of deciduous forest,3,independent_continuant,1.0,False,1,independent_continuant×3,independent_continuant,0.333,0.667,0.0,1.0,1.0,0.0,0.0,0.333,v4.1,fiat_object_part,agent_more_general,agent_more_general,2,0.0,False,True
+area of emergent herbaceous wetland,3,independent_continuant,0.667,False,2,independent_continuant×2; fiat_object_part×1,independent_continuant,1.0,0.0,0.0,1.0,1.0,0.0,0.0,0.0,v4.1,fiat_object_part,agent_more_general,agent_more_general,2,0.333,False,True
+area of mixed forest,3,independent_continuant,0.667,False,2,independent_continuant×2; fiat_object_part×1,independent_continuant,1.0,0.0,0.0,1.0,1.0,0.0,0.0,0.0,v4.1,fiat_object_part,agent_more_general,agent_more_general,2,0.333,False,True
+area of national forest,3,material_entity,0.667,False,2,material_entity×2; independent_continuant×1,material_entity,1.0,0.0,0.0,1.0,1.0,0.0,0.0,0.0,v4.1,fiat_object_part,agent_more_general,agent_more_general,1,0.0,False,True
+area of sedge- and forb-dominated herbaceous vegetation,3,independent_continuant,1.0,False,1,independent_continuant×3,independent_continuant,1.0,0.0,0.0,1.0,1.0,0.0,0.0,0.0,v4.1,fiat_object_part,agent_more_general,agent_more_general,2,0.0,False,True
+chaparral area,3,material_entity,0.667,False,2,material_entity×2; independent_continuant×1,material_entity,1.0,0.0,0.0,1.0,1.0,0.0,0.0,0.0,v4.1,fiat_object_part,agent_more_general,agent_more_general,1,0.0,False,True
+forested area,3,material_entity,0.667,False,2,material_entity×2; independent_continuant×1,material_entity,1.0,0.0,0.0,1.0,1.0,0.0,0.0,0.0,v4.1,fiat_object_part,agent_more_general,agent_more_general,1,0.0,False,True
+fourth-order administrative region,3,independent_continuant,1.0,False,1,independent_continuant×3,independent_continuant,1.0,0.0,0.0,1.0,1.0,0.0,0.0,0.0,v4.1,fiat_object_part,agent_more_general,agent_more_general,2,0.0,False,True
+IUCN natural monument or feature,3,material_entity,1.0,False,1,material_entity×3,material_entity,1.0,0.0,0.0,1.0,1.0,0.0,0.0,0.0,v4.1,fiat_object_part,agent_more_general,agent_more_general,1,0.0,False,True
+IUCN protected area with sustainable use of natural resources,3,material_entity,1.0,False,1,material_entity×3,material_entity,1.0,0.0,0.0,1.0,1.0,0.0,0.0,0.0,v4.1,fiat_object_part,agent_more_general,agent_more_general,1,0.0,False,True
+marine park area,3,independent_continuant,1.0,False,1,independent_continuant×3,independent_continuant,1.0,0.0,0.0,1.0,1.0,0.0,0.0,0.0,v4.1,fiat_object_part,agent_more_general,agent_more_general,2,0.0,False,True
+site of special scientific interest,3,continuant,1.0,False,1,continuant×3,continuant,1.0,0.0,0.0,1.0,1.0,0.0,0.0,0.0,v4.1,fiat_object_part,agent_more_general,agent_more_general,3,0.0,False,True
+tectonic plate boundary,3,material_entity,1.0,False,1,material_entity×3,material_entity,1.0,0.0,0.0,1.0,1.0,0.0,0.0,0.0,v4.1,fiat_object_part,agent_more_general,agent_more_general,1,0.0,False,True
+chemical colorant,3,function,1.0,False,1,function×3,function,1.0,0.0,0.0,0.0,1.0,1.0,0.0,0.0,v4.1,function,exact,exact,0,1.0,True,True
+glue,3,function,1.0,False,1,function×3,function,1.0,0.0,0.0,0.0,1.0,1.0,0.0,0.0,v4.1,function,exact,exact,0,1.0,True,True
+letter,3,generically_dependent_continuant,1.0,False,1,generically_dependent_continuant×3,generically_dependent_continuant,1.0,0.0,0.0,1.0,1.0,0.0,0.0,0.0,v4.1,generically_dependent_continuant,exact,exact,0,1.0,True,True
+backwater,3,material_entity,0.667,False,2,material_entity×2; independent_continuant×1,material_entity,1.0,0.0,0.0,1.0,1.0,0.0,0.0,0.0,v4.1,material_entity,exact,exact,0,0.667,True,True
+ballast tank,3,material_entity,1.0,False,1,material_entity×3,material_entity,1.0,0.0,0.0,1.0,1.0,0.0,0.0,0.0,v4.1,material_entity,exact,exact,0,1.0,True,True
+crater,3,immaterial_entity,1.0,False,1,immaterial_entity×3,immaterial_entity,0.667,0.333,0.0,0.667,1.0,0.0,0.0,0.0,v4.1,material_entity,other_branch,other_branch,2,0.0,False,False
+desert biome,3,material_entity,1.0,False,1,material_entity×3,material_entity,1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,v4.1,material_entity,exact,exact,0,1.0,True,True
+glass building floor,3,material_entity,1.0,False,1,material_entity×3,material_entity,1.0,0.0,0.0,0.333,1.0,0.0,0.0,0.0,v4.1,material_entity,exact,exact,0,1.0,True,True
+hypersaline lake,3,material_entity,0.667,False,2,material_entity×2; object×1,material_entity,1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,v4.1,material_entity,exact,exact,0,0.667,True,True
+L-(+)-tartrate enriched soil,3,material_entity,1.0,False,1,material_entity×3,material_entity,1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,v4.1,material_entity,exact,exact,0,1.0,True,True
+marsh,3,material_entity,1.0,False,1,material_entity×3,material_entity,1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,v4.1,material_entity,exact,exact,0,1.0,True,True
+resequent stream,3,material_entity,1.0,False,1,material_entity×3,material_entity,1.0,0.0,0.0,1.0,1.0,0.0,0.0,0.0,v4.1,material_entity,exact,exact,0,1.0,True,True
+sandy building floor,3,material_entity,1.0,False,1,material_entity×3,material_entity,1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,v4.1,material_entity,exact,exact,0,1.0,True,True
+sewage plant,3,object,0.667,False,2,object×2; material_entity×1,object,1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,v4.1,material_entity,agent_more_specific,agent_more_specific,1,0.333,False,True
+stream run,3,fiat_object_part,1.0,False,1,fiat_object_part×3,fiat_object_part,1.0,0.0,0.0,0.333,1.0,0.0,0.0,0.0,v4.1,material_entity,agent_more_specific,agent_more_specific,1,0.0,False,True
+tended pasturable land,3,material_entity,1.0,False,1,material_entity×3,material_entity,1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,v4.1,material_entity,exact,exact,0,1.0,True,True
+tropical marine coral reef biome,3,material_entity,1.0,False,1,material_entity×3,material_entity,1.0,0.0,0.0,0.333,1.0,0.0,0.0,0.0,v4.1,material_entity,exact,exact,0,1.0,True,True
+water-body-derived ice,3,material_entity,1.0,False,1,material_entity×3,material_entity,1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,v4.1,material_entity,exact,exact,0,1.0,True,True
+achondrite,3,object,1.0,False,1,object×3,object,1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,v4.1,object,exact,exact,0,1.0,True,True
+bubble,3,material_entity,1.0,False,1,material_entity×3,material_entity,1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,v4.1,object,agent_more_general,agent_more_general,1,0.0,False,True
+cirrocumulus castellanus cloud,3,material_entity,0.667,False,2,material_entity×2; object×1,material_entity,1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,v4.1,object,agent_more_general,agent_more_general,1,0.333,False,True
+floating ice calf,3,object,0.667,False,2,object×2; material_entity×1,object,1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,v4.1,object,exact,exact,0,0.667,True,True
+floating ice mass,3,material_entity,0.667,False,2,material_entity×2; object×1,material_entity,1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,v4.1,object,agent_more_general,agent_more_general,1,0.333,False,True
+gas planet,3,object,1.0,False,1,object×3,object,1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,v4.1,object,exact,exact,0,1.0,True,True
+ice tongue,3,material_entity,1.0,False,1,material_entity×3,material_entity,1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,v4.1,object,agent_more_general,agent_more_general,1,0.0,False,True
+mass of ice and snow,3,object,1.0,False,1,object×3,object,1.0,0.0,0.0,0.333,1.0,1.0,0.0,0.0,v4.1,object,exact,exact,0,1.0,True,True
+mega-Earth,3,object,1.0,False,1,object×3,object,1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,v4.1,object,exact,exact,0,1.0,True,True
+mini-Neptune,3,object,1.0,False,1,object×3,object,1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,v4.1,object,exact,exact,0,1.0,True,True
+plant matter fall,3,material_entity,1.0,False,1,material_entity×3,material_entity,1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,v4.1,object,agent_more_general,agent_more_general,1,0.0,False,True
+rainbow,3,continuant,0.333,True,3,continuant×1; independent_continuant×1; ×1,continuant,0.667,0.333,0.0,1.0,1.0,0.0,0.0,0.333,v4.1,object,agent_more_general,agent_more_general,3,0.0,False,True
+sleet pellet,3,object,0.667,False,2,object×2; material_entity×1,object,1.0,0.0,0.0,0.667,1.0,0.0,0.0,0.0,v4.1,object,exact,exact,0,0.667,True,True
+tributary glacier,3,material_entity,0.667,False,2,material_entity×2; object×1,material_entity,1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,v4.1,object,agent_more_general,agent_more_general,1,0.333,False,True
+water-based cloud droplet,3,object,0.667,False,2,object×2; material_entity×1,object,1.0,0.0,0.0,0.333,1.0,0.0,0.0,0.0,v4.1,object,exact,exact,0,0.667,True,True
+acidic water-based rain,3,material_entity,0.667,False,2,material_entity×2; ×1,material_entity,0.667,0.333,0.0,1.0,1.0,0.0,0.0,0.333,v4.1,object_aggregate,agent_more_general,agent_more_general,1,0.0,False,True
+falling sleet,3,object_aggregate,1.0,False,1,object_aggregate×3,object_aggregate,1.0,0.0,0.0,0.0,1.0,1.0,0.0,0.0,v4.1,object_aggregate,exact,exact,0,1.0,True,True
+falling snow,3,object_aggregate,1.0,False,1,object_aggregate×3,object_aggregate,1.0,0.0,0.0,0.0,1.0,1.0,0.0,0.0,v4.1,object_aggregate,exact,exact,0,1.0,True,True
+food production environmental monitoring zone 1,3,object_aggregate,1.0,False,1,object_aggregate×3,object_aggregate,1.0,0.0,0.0,0.0,1.0,1.0,0.0,0.0,v4.1,object_aggregate,exact,exact,0,1.0,True,True
+food production environmental monitoring zone 2,3,object_aggregate,1.0,False,1,object_aggregate×3,object_aggregate,1.0,0.0,0.0,0.0,1.0,1.0,0.0,0.0,v4.1,object_aggregate,exact,exact,0,1.0,True,True
+food production environmental monitoring zone 3,3,object_aggregate,1.0,False,1,object_aggregate×3,object_aggregate,1.0,0.0,0.0,0.0,1.0,1.0,0.0,0.0,v4.1,object_aggregate,exact,exact,0,1.0,True,True
+food production environmental monitoring zone 4,3,object_aggregate,1.0,False,1,object_aggregate×3,object_aggregate,1.0,0.0,0.0,0.0,1.0,1.0,0.0,0.0,v4.1,object_aggregate,exact,exact,0,1.0,True,True
+freezing rain,3,material_entity,1.0,False,1,material_entity×3,material_entity,1.0,0.0,0.0,1.0,1.0,0.0,0.0,0.0,v4.1,object_aggregate,agent_more_general,agent_more_general,1,0.0,False,True
+rain,3,object_aggregate,1.0,False,1,object_aggregate×3,object_aggregate,1.0,0.0,0.0,0.667,1.0,0.0,0.0,0.0,v4.1,object_aggregate,exact,exact,0,1.0,True,True
+water-based rain,3,material_entity,0.667,False,2,material_entity×2; object_aggregate×1,material_entity,1.0,0.0,0.0,0.667,1.0,0.0,0.0,0.0,v4.1,object_aggregate,agent_more_general,agent_more_general,1,0.333,False,True
+benthic deep-sea mining,3,process,1.0,False,1,process×3,process,1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,v4.1,occurrent,agent_more_specific,agent_more_specific,1,0.0,False,True
+crustacean farming process,3,process,1.0,False,1,process×3,process,1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,v4.1,occurrent,agent_more_specific,agent_more_specific,1,0.0,False,True
+finfish farming process,3,process,1.0,False,1,process×3,process,1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,v4.1,occurrent,agent_more_specific,agent_more_specific,1,0.0,False,True
+forestry,3,process,1.0,False,1,process×3,process,1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,v4.1,occurrent,agent_more_specific,agent_more_specific,1,0.0,False,True
+hydrogen production process,3,process,1.0,False,1,process×3,process,1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,v4.1,occurrent,agent_more_specific,agent_more_specific,1,0.0,False,True
+manufacturing process,3,process,1.0,False,1,process×3,process,1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,v4.1,occurrent,agent_more_specific,agent_more_specific,1,0.0,False,True
+mining,3,process,1.0,False,1,process×3,process,1.0,0.0,0.0,0.0,1.0,1.0,0.0,0.0,v4.1,occurrent,agent_more_specific,agent_more_specific,1,0.0,False,True
+mollusc farming process,3,process,1.0,False,1,process×3,process,1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,v4.1,occurrent,agent_more_specific,agent_more_specific,1,0.0,False,True
+quarrying,3,process,1.0,False,1,process×3,process,1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,v4.1,occurrent,agent_more_specific,agent_more_specific,1,0.0,False,True
+sea bed mining,3,process,1.0,False,1,process×3,process,1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,v4.1,occurrent,agent_more_specific,agent_more_specific,1,0.0,False,True
+usage of an environment for defence,3,process,1.0,False,1,process×3,process,1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,v4.1,occurrent,agent_more_specific,agent_more_specific,1,0.0,False,True
+usage of an environment for recreation,3,process,1.0,False,1,process×3,process,1.0,0.0,0.0,0.0,1.0,0.667,0.0,0.0,v4.1,occurrent,agent_more_specific,agent_more_specific,1,0.0,False,True
+usage of an environment for transportation,3,process,1.0,False,1,process×3,process,1.0,0.0,0.0,0.0,1.0,0.333,0.0,0.0,v4.1,occurrent,agent_more_specific,agent_more_specific,1,0.0,False,True
+well intervention,3,process,1.0,False,1,process×3,process,1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,v4.1,occurrent,agent_more_specific,agent_more_specific,1,0.0,False,True
+well stimulation,3,process,1.0,False,1,process×3,process,1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,v4.1,occurrent,agent_more_specific,agent_more_specific,1,0.0,False,True
+cold season,3,occurrent,1.0,False,1,occurrent×3,occurrent,1.0,0.0,0.0,1.0,1.0,0.0,0.0,0.0,v4.1,one_dimensional_temporal_region,agent_more_general,agent_more_general,2,0.0,False,True
+day,3,one_dimensional_temporal_region,1.0,False,1,one_dimensional_temporal_region×3,one_dimensional_temporal_region,1.0,0.0,0.0,0.0,1.0,1.0,0.0,0.0,v4.1,one_dimensional_temporal_region,exact,exact,0,1.0,True,True
+glaciation,3,one_dimensional_temporal_region,0.667,False,2,one_dimensional_temporal_region×2; temporal_region×1,one_dimensional_temporal_region,0.667,0.333,0.333,0.0,1.0,0.0,0.0,0.333,v4.1,one_dimensional_temporal_region,exact,exact,0,0.667,True,True
+hours of sunshine,3,one_dimensional_temporal_region,1.0,False,1,one_dimensional_temporal_region×3,one_dimensional_temporal_region,1.0,0.0,0.0,0.0,1.0,1.0,0.0,0.0,v4.1,one_dimensional_temporal_region,exact,exact,0,1.0,True,True
+ice age,3,one_dimensional_temporal_region,1.0,False,1,one_dimensional_temporal_region×3,one_dimensional_temporal_region,1.0,0.0,0.0,0.0,1.0,1.0,0.0,0.0,v4.1,one_dimensional_temporal_region,exact,exact,0,1.0,True,True
+interglacial,3,temporal_region,1.0,False,1,temporal_region×3,one_dimensional_temporal_region,0.0,1.0,0.667,0.0,1.0,0.0,0.0,1.0,v4.1,one_dimensional_temporal_region,agent_more_general,exact,1,0.0,False,True
+monsoon season,3,temporal_region,1.0,False,1,temporal_region×3,one_dimensional_temporal_region,0.0,1.0,0.0,1.0,1.0,0.0,0.0,1.0,v4.1,one_dimensional_temporal_region,agent_more_general,exact,1,0.0,False,True
+rainy day,3,one_dimensional_temporal_region,0.667,False,2,one_dimensional_temporal_region×2; temporal_region×1,one_dimensional_temporal_region,0.667,0.333,0.0,1.0,1.0,0.0,0.0,0.333,v4.1,one_dimensional_temporal_region,exact,exact,0,0.667,True,True
+season,3,one_dimensional_temporal_region,1.0,False,1,one_dimensional_temporal_region×3,one_dimensional_temporal_region,1.0,0.0,0.0,0.0,1.0,1.0,0.0,0.0,v4.1,one_dimensional_temporal_region,exact,exact,0,1.0,True,True
+warm season,3,occurrent,1.0,False,1,occurrent×3,occurrent,1.0,0.0,0.0,1.0,1.0,0.0,0.0,0.0,v4.1,one_dimensional_temporal_region,agent_more_general,agent_more_general,2,0.0,False,True
+agricultural land conversion process,3,process,1.0,False,1,process×3,process,1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,v4.1,process,exact,exact,0,1.0,True,True
+air pollution,3,process,1.0,False,1,process×3,process,1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,v4.1,process,exact,exact,0,1.0,True,True
+atmospheric aerosol formation,3,process,1.0,False,1,process×3,process,1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,v4.1,process,exact,exact,0,1.0,True,True
+conservation-focused active ecosystem management process,3,process,1.0,False,1,process×3,process,1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,v4.1,process,exact,exact,0,1.0,True,True
+ecosystem-wide respiration,3,process,1.0,False,1,process×3,process,1.0,0.0,0.0,0.0,1.0,1.0,0.0,0.0,v4.1,process,exact,exact,0,1.0,True,True
+foreshock,3,process,1.0,False,1,process×3,process,1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,v4.1,process,exact,exact,0,1.0,True,True
+glacial transport process,3,process,1.0,False,1,process×3,process,1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,v4.1,process,exact,exact,0,1.0,True,True
+hydrological process,3,process,1.0,False,1,process×3,process,1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,v4.1,process,exact,exact,0,1.0,True,True
+iceberg calving process,3,process,1.0,False,1,process×3,process,1.0,0.0,0.0,0.0,1.0,1.0,0.0,0.0,v4.1,process,exact,exact,0,1.0,True,True
+lightning strike,3,process,1.0,False,1,process×3,process,1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,v4.1,process,exact,exact,0,1.0,True,True
+new ice formation process,3,process,1.0,False,1,process×3,process,1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,v4.1,process,exact,exact,0,1.0,True,True
+nucleation of cloud condensation,3,process,1.0,False,1,process×3,process,1.0,0.0,0.0,0.0,1.0,1.0,0.0,0.0,v4.1,process,exact,exact,0,1.0,True,True
+season generating process,3,process,1.0,False,1,process×3,process,1.0,0.0,0.0,0.0,1.0,1.0,0.0,0.0,v4.1,process,exact,exact,0,1.0,True,True
+storm surge process,3,process,1.0,False,1,process×3,process,1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,v4.1,process,exact,exact,0,1.0,True,True
+X-ray stellar radiation,3,process,1.0,False,1,process×3,process,1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,v4.1,process,exact,exact,0,1.0,True,True
+arable,3,quality,1.0,False,1,quality×3,quality,1.0,0.0,0.0,0.0,1.0,1.0,0.0,0.0,v4.1,quality,exact,exact,0,1.0,True,True
+dew point,3,quality,1.0,False,1,quality×3,quality,1.0,0.0,0.0,0.333,1.0,0.0,0.0,0.0,v4.1,quality,exact,exact,0,1.0,True,True
+geodiversity,3,quality,1.0,False,1,quality×3,quality,1.0,0.0,0.0,0.0,1.0,1.0,0.0,0.0,v4.1,quality,exact,exact,0,1.0,True,True
+humidity of soil,3,quality,1.0,False,1,quality×3,quality,1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,v4.1,quality,exact,exact,0,1.0,True,True
+polar,3,quality,1.0,False,1,quality×3,quality,1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,v4.1,quality,exact,exact,0,1.0,True,True
+proglacial,3,quality,1.0,False,1,quality×3,quality,1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,v4.1,quality,exact,exact,0,1.0,True,True
+quality of a foam,3,quality,1.0,False,1,quality×3,quality,1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,v4.1,quality,exact,exact,0,1.0,True,True
+sea surface height,3,quality,1.0,False,1,quality×3,quality,1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,v4.1,quality,exact,exact,0,1.0,True,True
+soil layer top depth,3,quality,1.0,False,1,quality×3,quality,1.0,0.0,0.0,1.0,1.0,0.0,0.0,0.0,v4.1,quality,exact,exact,0,1.0,True,True
+solubility of carbon atom in environmental material,3,specifically_dependent_continuant,1.0,False,1,specifically_dependent_continuant×3,specifically_dependent_continuant,1.0,0.0,0.0,0.667,1.0,0.0,0.0,0.0,v4.1,quality,agent_more_general,agent_more_general,1,0.0,False,True
+speed of soil water infiltration,3,process_profile,0.667,False,2,process_profile×2; ×1,process_profile,1.0,0.0,0.0,0.667,1.0,0.0,0.0,0.333,v4.1,quality,wrong_main_branch,wrong_main_branch,6,0.0,False,False
+subpolar,3,quality,1.0,False,1,quality×3,quality,1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,v4.1,quality,exact,exact,0,1.0,True,True
+temperate,3,specifically_dependent_continuant,0.667,False,2,specifically_dependent_continuant×2; quality×1,specifically_dependent_continuant,1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,v4.1,quality,agent_more_general,agent_more_general,1,0.333,False,True
+temperature of environmental material,3,quality,1.0,False,1,quality×3,quality,1.0,0.0,0.0,0.333,1.0,0.0,0.0,0.0,v4.1,quality,exact,exact,0,1.0,True,True
+volume of evapotranspiration,3,occurrent,0.667,False,2,occurrent×2; quality×1,occurrent,1.0,0.0,0.0,1.0,1.0,0.0,0.0,0.0,v4.1,quality,wrong_main_branch,wrong_main_branch,4,0.333,False,False
+litter role,3,role,1.0,False,1,role×3,role,1.0,0.0,0.0,0.0,1.0,1.0,0.0,0.0,v4.1,role,exact,exact,0,1.0,True,True
+waste role,3,role,1.0,False,1,role×3,role,1.0,0.0,0.0,0.0,1.0,1.0,0.0,0.0,v4.1,role,exact,exact,0,1.0,True,True
+Hill sphere,3,site,1.0,False,1,site×3,site,1.0,0.0,0.0,0.0,1.0,1.0,0.0,0.0,v4.1,site,exact,exact,0,1.0,True,True
+induced magnetosphere,3,independent_continuant,1.0,False,1,independent_continuant×3,independent_continuant,1.0,0.0,0.0,1.0,1.0,0.0,0.0,0.0,v4.1,site,agent_more_general,agent_more_general,2,0.0,False,True
+intrinsic magnetosphere,3,continuant,1.0,False,1,continuant×3,continuant,1.0,0.0,0.0,1.0,1.0,0.0,0.0,0.0,v4.1,site,agent_more_general,agent_more_general,3,0.0,False,True
+Lagrangian point,3,site,1.0,False,1,site×3,site,1.0,0.0,0.0,0.0,1.0,1.0,0.0,0.0,v4.1,site,exact,exact,0,1.0,True,True
+magnetosphere,3,site,1.0,False,1,site×3,site,1.0,0.0,0.0,0.0,1.0,1.0,0.0,0.0,v4.1,site,exact,exact,0,1.0,True,True
+cave entrance,3,two_dimensional_continuant_fiat_boundary,1.0,False,1,two_dimensional_continuant_fiat_boundary×3,two_dimensional_continuant_fiat_boundary,1.0,0.0,0.0,0.0,1.0,1.0,0.0,0.0,v4.1,two_dimensional_continuant_fiat_boundary,exact,exact,0,1.0,True,True
+shoreline,3,two_dimensional_continuant_fiat_boundary,1.0,False,1,two_dimensional_continuant_fiat_boundary×3,two_dimensional_continuant_fiat_boundary,1.0,0.0,0.0,0.0,1.0,1.0,0.0,0.0,v4.1,two_dimensional_continuant_fiat_boundary,exact,exact,0,1.0,True,True
+two-dimensional fiat ice surface,3,two_dimensional_continuant_fiat_boundary,1.0,False,1,two_dimensional_continuant_fiat_boundary×3,two_dimensional_continuant_fiat_boundary,1.0,0.0,0.0,0.0,1.0,1.0,0.0,0.0,v4.1,two_dimensional_continuant_fiat_boundary,exact,exact,0,1.0,True,True
+two-dimensional fiat water ice surface,3,immaterial_entity,1.0,False,1,immaterial_entity×3,two_dimensional_continuant_fiat_boundary,0.0,1.0,0.0,0.0,1.0,0.0,0.0,1.0,v4.1,two_dimensional_continuant_fiat_boundary,agent_more_general,exact,2,0.0,False,True

@@ -1,0 +1,168 @@
+{
+  "id": "entity",
+  "label": "Entity",
+  "children": [
+    {
+      "id": "continuant",
+      "label": "Continuant",
+      "children": [
+        {
+          "id": "independent_continuant",
+          "label": "Independent Continuant",
+          "children": [
+            {
+              "id": "material_entity",
+              "label": "Material Entity",
+              "children": [
+                {
+                  "id": "object",
+                  "label": "Object"
+                },
+                {
+                  "id": "fiat_object_part",
+                  "label": "Fiat Object Part"
+                },
+                {
+                  "id": "object_aggregate",
+                  "label": "Object Aggregate"
+                }
+              ]
+            },
+            {
+              "id": "immaterial_entity",
+              "label": "Immaterial Entity",
+              "children": [
+                {
+                  "id": "site",
+                  "label": "Site"
+                },
+                {
+                  "id": "continuant_fiat_boundary",
+                  "label": "Continuant Fiat Boundary",
+                  "children": [
+                    {
+                      "id": "zero_dimensional_continuant_fiat_boundary",
+                      "label": "Zero-Dimensional Continuant Fiat Boundary"
+                    },
+                    {
+                      "id": "one_dimensional_continuant_fiat_boundary",
+                      "label": "One-Dimensional Continuant Fiat Boundary"
+                    },
+                    {
+                      "id": "two_dimensional_continuant_fiat_boundary",
+                      "label": "Two-Dimensional Continuant Fiat Boundary"
+                    }
+                  ]
+                },
+                {
+                  "id": "spatial_region",
+                  "label": "Spatial Region",
+                  "children": [
+                    {
+                      "id": "zero_dimensional_spatial_region",
+                      "label": "Zero-Dimensional Spatial Region"
+                    },
+                    {
+                      "id": "one_dimensional_spatial_region",
+                      "label": "One-Dimensional Spatial Region"
+                    },
+                    {
+                      "id": "two_dimensional_spatial_region",
+                      "label": "Two-Dimensional Spatial Region"
+                    },
+                    {
+                      "id": "three_dimensional_spatial_region",
+                      "label": "Three-Dimensional Spatial Region"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "specifically_dependent_continuant",
+          "label": "Specifically Dependent Continuant",
+          "children": [
+            {
+              "id": "quality",
+              "label": "Quality",
+              "children": [
+                {
+                  "id": "relational_quality",
+                  "label": "Relational Quality"
+                }
+              ]
+            },
+            {
+              "id": "realizable_entity",
+              "label": "Realizable Entity",
+              "children": [
+                {
+                  "id": "role",
+                  "label": "Role"
+                },
+                {
+                  "id": "disposition",
+                  "label": "Disposition",
+                  "children": [
+                    {
+                      "id": "function",
+                      "label": "Function"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "generically_dependent_continuant",
+          "label": "Generically Dependent Continuant"
+        }
+      ]
+    },
+    {
+      "id": "occurrent",
+      "label": "Occurrent",
+      "children": [
+        {
+          "id": "process",
+          "label": "Process",
+          "children": [
+            {
+              "id": "history",
+              "label": "History"
+            },
+            {
+              "id": "process_profile",
+              "label": "Process Profile"
+            }
+          ]
+        },
+        {
+          "id": "process_boundary",
+          "label": "Process Boundary"
+        },
+        {
+          "id": "spatiotemporal_region",
+          "label": "Spatiotemporal Region"
+        },
+        {
+          "id": "temporal_region",
+          "label": "Temporal Region",
+          "children": [
+            {
+              "id": "zero_dimensional_temporal_region",
+              "label": "Zero-Dimensional Temporal Region"
+            },
+            {
+              "id": "one_dimensional_temporal_region",
+              "label": "One-Dimensional Temporal Region"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

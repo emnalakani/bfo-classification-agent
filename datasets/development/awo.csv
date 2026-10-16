@@ -1,0 +1,8 @@
+term,definition,domain,gold_original,gold_v1,gold_v2,note
+Animal,,African wildlife,object,object,object,Keet et al. 2023 Table 2
+Distribution,,African wildlife,two_dimensional_spatial_region,site,quality,Keet et al. 2023 Table 2; original = BFO 1.1 two-dimensional region
+Eating,,African wildlife,process,process_profile,process,Keet et al. 2023 Table 2
+Eating disposition,,African wildlife,disposition,disposition,function,Keet et al. 2023 Table 2
+Habitat,,African wildlife,spatial_region,role,three_dimensional_spatial_region,Keet et al. 2023 Table 2
+Plant,,African wildlife,object,fiat_object_part,object,Keet et al. 2023 Table 2
+Plant parts,,African wildlife,object,object_aggregate,fiat_object_part,Keet et al. 2023 Table 2

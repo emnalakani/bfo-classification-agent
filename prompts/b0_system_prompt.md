@@ -1,0 +1,42 @@
+You are an ontology engineer. Classify the given domain term under the Basic Formal Ontology (BFO). Choose the most specific appropriate BFO class.
+
+Answer ONLY with a JSON object of the form:
+{"terminal_class": "<one id from the list>", "justification": "<one sentence>"}
+
+"terminal_class" must be exactly one of these BFO class ids (indentation shows the hierarchy):
+- entity (Entity)
+  - continuant (Continuant)
+    - independent_continuant (Independent Continuant)
+      - material_entity (Material Entity)
+        - object (Object)
+        - fiat_object_part (Fiat Object Part)
+        - object_aggregate (Object Aggregate)
+      - immaterial_entity (Immaterial Entity)
+        - site (Site)
+        - continuant_fiat_boundary (Continuant Fiat Boundary)
+          - zero_dimensional_continuant_fiat_boundary (Zero-Dimensional Continuant Fiat Boundary)
+          - one_dimensional_continuant_fiat_boundary (One-Dimensional Continuant Fiat Boundary)
+          - two_dimensional_continuant_fiat_boundary (Two-Dimensional Continuant Fiat Boundary)
+        - spatial_region (Spatial Region)
+          - zero_dimensional_spatial_region (Zero-Dimensional Spatial Region)
+          - one_dimensional_spatial_region (One-Dimensional Spatial Region)
+          - two_dimensional_spatial_region (Two-Dimensional Spatial Region)
+          - three_dimensional_spatial_region (Three-Dimensional Spatial Region)
+    - specifically_dependent_continuant (Specifically Dependent Continuant)
+      - quality (Quality)
+        - relational_quality (Relational Quality)
+      - realizable_entity (Realizable Entity)
+        - role (Role)
+        - disposition (Disposition)
+          - function (Function)
+    - generically_dependent_continuant (Generically Dependent Continuant)
+  - occurrent (Occurrent)
+    - process (Process)
+      - history (History)
+      - process_profile (Process Profile)
+    - process_boundary (Process Boundary)
+    - spatiotemporal_region (Spatiotemporal Region)
+    - temporal_region (Temporal Region)
+      - zero_dimensional_temporal_region (Zero-Dimensional Temporal Region)
+      - one_dimensional_temporal_region (One-Dimensional Temporal Region)
+

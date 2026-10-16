@@ -1,0 +1,118 @@
+======================================================================
+results/test/obi_agent   system=agent   terms=140   runs=420
+mean stability            0.957
+fully stable terms        125 / 140
+unstable terms            15
+  same path (depth only)  15
+  different branches      0
+valid first attempt       411 / 420 = 97.9%
+repair triggered          9 / 420
+fallback                  0 / 420 = 0.0%
+class changed by checks   8 / 420
+          general -> exact       4
+            exact -> general     2
+          general -> general     2
+exact runs before checks  77.9%   after checks 78.3%
+first-attempt errors (by step/check):
+        5  Summary JSON block not found. The model did not append the r
+        2  Step 6 (Q_FUNCTION)
+        1  genus_claims[1]
+        1  The last question was contested at 'entity', so terminal_cla
+        1  Step 2 (Q_DEPENDENCE)
+calibration (run level):
+      level    runs    exact  implied  refining  conflict
+      high      122   100.0%   100.0%      0.0%      0.0%
+      medium    217    74.7%    78.3%     20.3%      1.4%
+      low        81    55.6%    85.2%      3.7%     11.1%
+low confidence because    {'ambiguous': 81}
+refining runs by level    {'medium': 44, 'low': 3}
+conflicting runs by level {'low': 9, 'medium': 3}
+======================================================================
+results/test/obi_b0   system=baseline_naive   terms=140   runs=420
+mean stability            0.998
+fully stable terms        139 / 140
+unstable terms            1
+  same path (depth only)  0
+  different branches      1
+      cross-branch: manufacturer: ['object_aggregate', 'object_aggregate', 'object']  (ref material_entity)
+======================================================================
+results/test/obi_b1cot   system=baseline_diagram_cot   terms=140   runs=420
+mean stability            0.993
+fully stable terms        137 / 140
+unstable terms            3
+  same path (depth only)  1
+  different branches      2
+      cross-branch: polyA RNA extract: ['object_aggregate', 'object', 'object_aggregate']  (ref material_entity)
+      cross-branch: interrogation_point: ['site', 'zero_dimensional_continuant_fiat_boundary', 'site']  (ref site)
+======================================================================
+results/test/envo_agent   system=agent   terms=139   runs=417
+mean stability            0.938
+fully stable terms        114 / 139
+unstable terms            25
+  same path (depth only)  24
+  different branches      1
+      cross-branch: volume of evapotranspiration: ['occurrent', 'occurrent', 'quality']  (ref quality)
+valid first attempt       401 / 417 = 96.2%
+repair triggered          16 / 417
+fallback                  3 / 417 = 0.7%
+class changed by checks   15 / 417
+            exact -> general     11
+      conflicting -> general     2
+          general -> conflicting 1
+          general -> general     1
+exact runs before checks  60.0%   after checks 57.3%
+first-attempt errors (by step/check):
+        8  Step 3 (Q_MOMENT)
+        3  Step 5 (Q_BOUNDED_DIM)
+        3  Step 4 (Q_BOUNDED_OR_PORTION)
+        2  genus_claims[1]
+        2  The last question was contested at 'entity', so terminal_cla
+        1  Step 6 (Q_CFB_DIM)
+        1  The summary JSON block was not syntactically valid — try aga
+calibration (run level):
+      level    runs    exact  implied  refining  conflict
+      high       67   100.0%   100.0%      0.0%      0.0%
+      medium    220    64.1%    76.4%     22.7%      0.9%
+      low       130    23.8%    92.3%      0.8%      6.9%
+low confidence because    {'ambiguous': 127, 'fallback_to_valid_prefix': 3}
+refining runs by level    {'medium': 50, 'low': 1}
+conflicting runs by level {'low': 9, 'medium': 2}
+======================================================================
+results/test/envo_b0   system=baseline_naive   terms=139   runs=417
+mean stability            0.974
+fully stable terms        128 / 139
+unstable terms            11
+  same path (depth only)  1
+  different branches      10
+      cross-branch: net shortwave radiation: ['process', 'quality', 'quality']  (ref disposition)
+      cross-branch: area of deciduous forest: ['two_dimensional_continuant_fiat_boundary', 'two_dimensional_continuant_fiat_boundary', 'fiat_object_part']  (ref fiat_object_part)
+      cross-branch: area of mixed forest: ['site', 'fiat_object_part', 'site']  (ref fiat_object_part)
+      cross-branch: forested area: ['site', 'object_aggregate', 'site']  (ref fiat_object_part)
+      cross-branch: marine park area: ['site', 'fiat_object_part', 'site']  (ref fiat_object_part)
+      cross-branch: site of special scientific interest: ['site', 'site', 'fiat_object_part']  (ref fiat_object_part)
+      cross-branch: sandy building floor: ['fiat_object_part', 'object', 'fiat_object_part']  (ref material_entity)
+      cross-branch: cirrocumulus castellanus cloud: ['object_aggregate', 'object', 'object_aggregate']  (ref object)
+      cross-branch: rainbow: ['process', 'object_aggregate', 'object_aggregate']  (ref object)
+      cross-branch: intrinsic magnetosphere: ['site', 'three_dimensional_spatial_region', 'site']  (ref site)
+======================================================================
+results/test/envo_b1cot   system=baseline_diagram_cot   terms=139   runs=417
+mean stability            0.959
+fully stable terms        123 / 139
+unstable terms            16
+  same path (depth only)  1
+  different branches      15
+      cross-branch: thermal energy: ['quality', 'quality', 'disposition']  (ref disposition)
+      cross-branch: area of cropland: ['fiat_object_part', 'two_dimensional_continuant_fiat_boundary', 'two_dimensional_continuant_fiat_boundary']  (ref fiat_object_part)
+      cross-branch: area of deciduous forest: ['two_dimensional_continuant_fiat_boundary', 'fiat_object_part', 'two_dimensional_continuant_fiat_boundary']  (ref fiat_object_part)
+      cross-branch: area of emergent herbaceous wetland: ['two_dimensional_continuant_fiat_boundary', 'site', 'site']  (ref fiat_object_part)
+      cross-branch: area of national forest: ['object_aggregate', 'fiat_object_part', 'fiat_object_part']  (ref fiat_object_part)
+      cross-branch: area of sedge- and forb-dominated herbaceous vegetation: ['site', 'fiat_object_part', 'object_aggregate']  (ref fiat_object_part)
+      cross-branch: chaparral area: ['fiat_object_part', 'fiat_object_part', 'object_aggregate']  (ref fiat_object_part)
+      cross-branch: fourth-order administrative region: ['site', 'two_dimensional_continuant_fiat_boundary', 'site']  (ref fiat_object_part)
+      cross-branch: IUCN protected area with sustainable use of natural resources: ['site', 'site', 'fiat_object_part']  (ref fiat_object_part)
+      cross-branch: backwater: ['fiat_object_part', 'site', 'site']  (ref material_entity)
+      cross-branch: ballast tank: ['fiat_object_part', 'object', 'object']  (ref material_entity)
+      cross-branch: L-(+)-tartrate enriched soil: ['object', 'object_aggregate', 'object']  (ref material_entity)
+      cross-branch: acidic water-based rain: ['object', 'object_aggregate', 'object']  (ref object_aggregate)
+      cross-branch: freezing rain: ['process', 'object_aggregate', 'object_aggregate']  (ref object_aggregate)
+      cross-branch: ice age: ['one_dimensional_temporal_region', 'history', 'history']  (ref one_dimensional_temporal_region)

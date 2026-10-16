@@ -1,0 +1,83 @@
+{
+  "terms": 7,
+  "terms_evaluated": 7,
+  "runs_per_term": 3,
+  "failed_calls_total": 0,
+  "exact_with_any_annotator": 0.571,
+  "compatible_with_any_annotator": 0.857,
+  "mean_stability": 0.857,
+  "fully_stable_terms": 0.571,
+  "mean_valid_first_attempt": 1.0,
+  "mean_repair_rate": 0.0,
+  "mean_fallback_rate": 0.0,
+  "mean_ambiguous_rate": 0.381,
+  "mean_validator_changed_class_rate": 0.0,
+  "mean_genus_verified_rate": 1.0,
+  "mean_anchor_rate": 0.0,
+  "per_annotator": {
+    "gold_original": {
+      "validated": {
+        "exact": 0.429,
+        "other_branch": 0.286,
+        "agent_more_general": 0.286
+      },
+      "model_before_validation": {
+        "exact": 0.429,
+        "other_branch": 0.286,
+        "agent_more_general": 0.286
+      }
+    },
+    "gold_v1": {
+      "validated": {
+        "exact": 0.143,
+        "other_branch": 0.429,
+        "agent_more_general": 0.429
+      },
+      "model_before_validation": {
+        "exact": 0.143,
+        "other_branch": 0.429,
+        "agent_more_general": 0.429
+      }
+    },
+    "gold_v2": {
+      "validated": {
+        "exact": 0.571,
+        "agent_more_general": 0.286,
+        "other_branch": 0.143
+      },
+      "model_before_validation": {
+        "exact": 0.571,
+        "agent_more_general": 0.286,
+        "other_branch": 0.143
+      }
+    }
+  },
+  "human_human_exact_agreement": {
+    "gold_original~gold_v1": 0.286,
+    "gold_original~gold_v2": 0.429,
+    "gold_v1~gold_v2": 0.143
+  },
+  "mean_human_human_exact": 0.286,
+  "mean_system_human_exact_majority": 0.381,
+  "mean_system_human_exact_per_run": 0.397,
+  "outcomes_pooled_over_annotators": {
+    "exact": 0.381,
+    "agent_more_general": 0.333,
+    "other_branch": 0.286
+  },
+  "ties": 0,
+  "meta": {
+    "csv": "awo.csv",
+    "system": "agent",
+    "mode": "definition_only",
+    "backend": {
+      "status": "ok",
+      "model": "claude-sonnet-5-5",
+      "max_tokens": 4000,
+      "temperature": "0.0",
+      "base_url": "https://api.anthropic.com/v1/",
+      "key": "<redacted>"
+    },
+    "date": "2026-10-02 16:13:53"
+  }
+}

@@ -1,0 +1,79 @@
+{
+  "terms": 139,
+  "terms_evaluated": 139,
+  "runs_per_term": 3,
+  "failed_calls_total": 0,
+  "exact_with_any_annotator": 0.568,
+  "compatible_with_any_annotator": 0.971,
+  "mean_stability": 0.938,
+  "fully_stable_terms": 0.82,
+  "mean_valid_first_attempt": 0.962,
+  "mean_repair_rate": 0.038,
+  "mean_fallback_rate": 0.007,
+  "mean_ambiguous_rate": 0.305,
+  "mean_validator_changed_class_rate": 0.036,
+  "mean_genus_verified_rate": 1.0,
+  "mean_anchor_rate": 0.259,
+  "terms_with_source_conflict": [],
+  "per_annotator": {
+    "gold_ontology": {
+      "validated": {
+        "exact": 0.568,
+        "agent_more_general": 0.281,
+        "other_branch": 0.014,
+        "agent_more_specific": 0.122,
+        "wrong_main_branch": 0.014
+      },
+      "model_before_validation": {
+        "exact": 0.59,
+        "agent_more_general": 0.259,
+        "other_branch": 0.014,
+        "agent_more_specific": 0.122,
+        "wrong_main_branch": 0.014
+      }
+    }
+  },
+  "human_human_exact_agreement": {},
+  "mean_human_human_exact": null,
+  "mean_system_human_exact_majority": 0.568,
+  "mean_system_human_exact_per_run": 0.573,
+  "outcomes_pooled_over_annotators": {
+    "exact": 0.568,
+    "agent_more_general": 0.281,
+    "agent_more_specific": 0.122,
+    "other_branch": 0.014,
+    "wrong_main_branch": 0.014
+  },
+  "ties": 1,
+  "calibration": {
+    "high": {
+      "runs": 67,
+      "exact_rate": 1.0,
+      "compatible_rate": 1.0
+    },
+    "low": {
+      "runs": 130,
+      "exact_rate": 0.238,
+      "compatible_rate": 0.908
+    },
+    "medium": {
+      "runs": 220,
+      "exact_rate": 0.641,
+      "compatible_rate": 0.991
+    }
+  },
+  "meta": {
+    "csv": "envo_sample.csv",
+    "system": "agent",
+    "mode": "definition_only",
+    "backend": {
+      "status": "ok",
+      "model": "claude-sonnet-5-5",
+      "max_tokens": 4000,
+      "temperature": "rejected by this model: not sent (provider default)",
+      "base_url": "https://api.anthropic.com/v1/",
+      "key": "<redacted>"
+    },
+    "date": "2026-10-05 18:36:24"
+  }
+}

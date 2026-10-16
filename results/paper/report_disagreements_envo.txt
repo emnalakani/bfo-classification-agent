@@ -1,0 +1,64 @@
+ENVO: 59 non-exact terms out of 137
+
+  more_specific: 17
+      17  R1 reference more general than the answer
+     levels: 1: 17   (mean 1.00)
+
+  more_general: 39
+      15  D5 unity: object / aggregate / part
+       9  D4 material vs immaterial
+       5  D3 realizable vs quality
+       5  D2 dependence on a bearer
+       3  D6 kind of occurrent or region
+       1  D3 role / disposition / function
+       1  D0 conservative COMMON answer (no contested step)
+     levels: 1: 20, 2: 14, 3: 5   (mean 1.62)
+
+  incompatible: 3
+       2  I to code by hand
+       1  I reference named as alternative
+     path length (up+down): 3: 1, 4: 1, 6: 1   (mean 4.33)
+
+  more general: cause x levels
+     D0  1 level(s): 1
+     D2  3 level(s): 5
+     D3  1 level(s): 3
+     D3  2 level(s): 3
+     D4  2 level(s): 9
+     D5  1 level(s): 15
+     D6  1 level(s): 1
+     D6  2 level(s): 2
+
+  why the definition left the decision open (general / incompatible)
+       1   0  T0 no recognisable trigger
+      15   1  T1 matter vs the space it occupies
+       8   0  T2 thing vs happening
+       8   2  T3 magnitude noun (quality / disposition / profile)
+       6   0  T4 unity not stated (whole / part / collection)
+       1   0  T5 designation vs designated thing
+
+  more general answers flagged ambiguous: 29/39; reference class named as the alternative: 1/39
+  more general answers by reference class:
+      14  fiat_object_part
+       7  object
+       6  disposition
+       4  one_dimensional_temporal_region
+       3  object_aggregate
+       2  quality
+       2  site
+       1  two_dimensional_continuant_fiat_boundary
+
+  Agent outcome on the terms where B0 is ...
+                          exact  specific   general    incomp
+     B0 exact                66         0        18         1   (n=85)
+     B0 specific             11        17         0         0   (n=28)
+     B0 general               0         0         1         0   (n=1)
+     B0 incomp                1         0        20         2   (n=23)
+
+  Agent outcome on the terms where B1+CoT is ...
+                          exact  specific   general    incomp
+     B1+CoT exact            65         0        18         1   (n=84)
+     B1+CoT specific         11        17         0         0   (n=28)
+     B1+CoT incomp            2         0        21         2   (n=25)
+
+Written: results/paper/disagreements_ENVO_Agent.csv  (fill `verdict` for the incompatible rows)

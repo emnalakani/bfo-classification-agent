@@ -1,0 +1,15 @@
+dataset,term,system,reason
+OBI,hospital patient inclusion criterion,B1+CoT,content_filterx3
+OBI,solvent mixer,B1+CoT,content_filterx3
+OBI,T2 cell line,B1+CoT,content_filterx3
+OBI,efficacy of epitope intervention experiment,B0,content_filterx3
+OBI,efficacy of epitope intervention experiment,B1+CoT,content_filterx3
+OBI,GEM premier blood gas venous blood carbon dioxide assay,B1+CoT,content_filterx3
+OBI,in vivo assay measuring B cell epitope specific disease exacerbation resulting from the adoptive transfer of epitope specific antibodies or B cells,B0,content_filterx3
+OBI,adjuvant role,B1+CoT,content_filterx3
+OBI,complementary nucleotide probe role,B1+CoT,content_filterx3
+OBI,precursor role,B1+CoT,content_filterx3
+OBI,role of regulator of chemical manufacturer,B1+CoT,content_filterx3
+OBI,test substance role,B1+CoT,content_filterx3
+ENVO,crater,B1+CoT,content_filterx3
+ENVO,lightning strike,B1+CoT,content_filterx3

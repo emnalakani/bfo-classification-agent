@@ -1,0 +1,19 @@
+\begin{table}[t]
+\centering
+\caption{Classification results on the terms answered by all systems (majority of 3 runs). Exact McNemar tests against the agent.}
+\label{tab:main}
+\small
+\begin{tabular}{llrrrrrr}
+\toprule
+Dataset & System & Exact & Comp. & Incomp. & Stab. & $p_{\text{exact}}$ & $p_{\text{incomp}}$ \\
+\midrule
+OBI ($n$=129) & B0 & 81.4 & 97.7 & 2.3 & 1.00 & 0.629 & 1.000 \\
+ & B1+CoT & 79.1 & 97.7 & 2.3 & 0.99 & 1.000 & 1.000 \\
+ & \textbf{Agent} & 79.1 & 96.9 & 3.1 & 0.96 & -- & -- \\
+\midrule
+ENVO ($n$=137) & B0 & 62.0 & 83.2 & 16.8 & 0.97 & 0.281 & $<$0.001 \\
+ & B1+CoT & 61.3 & 81.8 & 18.2 & 0.96 & 0.377 & $<$0.001 \\
+ & \textbf{Agent} & 56.9 & 97.8 & 2.2 & 0.94 & -- & -- \\
+\bottomrule
+\end{tabular}
+\end{table}

@@ -1,0 +1,54 @@
+OBI: 27 non-exact terms out of 129
+
+  more_specific: 14
+      14  R1 reference more general than the answer
+     levels: 1: 14   (mean 1.00)
+
+  more_general: 9
+       3  D3 realizable vs quality
+       3  D2 dependence on a bearer
+       2  D3 role / disposition / function
+       1  D4 material vs immaterial
+     levels: 1: 4, 2: 3, 4: 2   (mean 2.00)
+
+  incompatible: 4
+       2  I quoted genus anchors role; reference named as alternative
+       1  I reference named as alternative
+       1  I to code by hand
+     path length (up+down): 2: 2, 3: 1, 4: 1   (mean 2.75)
+
+  more general: cause x levels
+     D2  1 level(s): 1
+     D2  4 level(s): 2
+     D3  1 level(s): 2
+     D3  2 level(s): 3
+     D4  1 level(s): 1
+
+  why the definition left the decision open (general / incompatible)
+       3   0  T0 no recognisable trigger
+       1   0  T1 matter vs the space it occupies
+       0   1  T2 thing vs happening
+       4   2  T3 magnitude noun (quality / disposition / profile)
+       0   1  T4 unity not stated (whole / part / collection)
+       1   0  T5 designation vs designated thing
+
+  more general answers flagged ambiguous: 6/9; reference class named as the alternative: 1/9
+  more general answers by reference class:
+       4  function
+       3  disposition
+       1  generically_dependent_continuant
+       1  site
+
+  Agent outcome on the terms where B0 is ...
+                          exact  specific   general    incomp
+     B0 exact                95         0         8         2   (n=105)
+     B0 specific              7        14         0         0   (n=21)
+     B0 incomp                0         0         1         2   (n=3)
+
+  Agent outcome on the terms where B1+CoT is ...
+                          exact  specific   general    incomp
+     B1+CoT exact            92         0         8         2   (n=102)
+     B1+CoT specific         10        14         0         0   (n=24)
+     B1+CoT incomp            0         0         1         2   (n=3)
+
+Written: results/paper/disagreements_OBI_Agent.csv  (fill `verdict` for the incompatible rows)

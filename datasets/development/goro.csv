@@ -1,0 +1,13 @@
+term,definition,domain,gold_v1,gold_v2,note
+Assumption,,Goal-oriented requirements engineering,disposition,generically_dependent_continuant,Keet et al. 2023 Table 3; original UFO: Belief
+Conflict,,Goal-oriented requirements engineering,occurrent,relational_quality,Keet et al. 2023 Table 3; original UFO: Relator
+Contribution,,Goal-oriented requirements engineering,generically_dependent_continuant,quality,Keet et al. 2023 Table 3; original UFO: Type Quality
+Requirement,,Goal-oriented requirements engineering,generically_dependent_continuant,generically_dependent_continuant,Keet et al. 2023 Table 3; original UFO: Goal
+Resource,,Goal-oriented requirements engineering,material_entity,object,Keet et al. 2023 Table 3; original UFO: Object
+Risk Event,,Goal-oriented requirements engineering,process,history,Keet et al. 2023 Table 3; original UFO: Situation
+Stakeholder,,Goal-oriented requirements engineering,object,object,Keet et al. 2023 Table 3; original UFO: Agent
+Stakeholder Belief,,Goal-oriented requirements engineering,quality,quality,Keet et al. 2023 Table 3; original UFO: Belief
+Stakeholder Intention,,Goal-oriented requirements engineering,quality,quality,Keet et al. 2023 Table 3; original UFO: Intention
+Task,,Goal-oriented requirements engineering,process,history,Keet et al. 2023 Table 3; original UFO: Plan
+Threatening Proposition,,Goal-oriented requirements engineering,specifically_dependent_continuant,specifically_dependent_continuant,Keet et al. 2023 Table 3; original UFO: Proposition
+Threatening Situation,,Goal-oriented requirements engineering,process,history,Keet et al. 2023 Table 3; original UFO: Situation

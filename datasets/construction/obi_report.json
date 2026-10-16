@@ -1,0 +1,25 @@
+{
+  "ontology": "OBI",
+  "native_classes": 4286,
+  "filters": {
+    "deprecated": 77,
+    "no_definition": 4,
+    "no_bfo_ancestor": 1,
+    "placeholder_definition": 3,
+    "kept": 4201
+  },
+  "per_bfo_class": {
+    "process": 2487,
+    "material_entity": 924,
+    "generically_dependent_continuant": 622,
+    "role": 109,
+    "function": 44,
+    "disposition": 9,
+    "quality": 3,
+    "site": 2,
+    "realizable_entity": 1
+  },
+  "direct_bfo_parent_share": 0.027,
+  "definition_names_bfo_class_share": 0.205,
+  "bfo_classes_mapped": 35
+}

@@ -1,0 +1,48 @@
+==============================================================================
+OBI: 140 terms, 129 answered by all systems (11 excluded)
+   B0         unanswered terms: 2
+   B1+CoT     unanswered terms: 10
+   Agent      unanswered terms: 0
+
+   system       exact  compat  incomp  general  specific   stab
+   B0            81.4    97.7     2.3      0.0      16.3  0.997
+   B1+CoT        79.1    97.7     2.3      0.0      18.6  0.995
+   Agent         79.1    96.9     3.1      7.0      10.9  0.960
+
+   McNemar (exact binomial), agent vs baseline:
+   B0         exact         only agent:   7   only B0:  10   p = 0.63
+   B0         incompatible  only agent:   2   only B0:   1   p = 1
+   B1+CoT     exact         only agent:  10   only B1+CoT:  10   p = 1
+   B1+CoT     incompatible  only agent:   2   only B1+CoT:   1   p = 1
+
+   Agent calibration (runs on common terms):
+   high    runs  110   exact 100.0   compatible 100.0
+   medium  runs  200   exact  75.5   compatible  98.5
+   low     runs   76   exact  57.9   compatible  88.2
+
+   Validator: class changed in 0.5% of runs; incompatible runs 12 before -> 12 after validation
+==============================================================================
+ENVO: 139 terms, 137 answered by all systems (2 excluded)
+   B0         unanswered terms: 0
+   B1+CoT     unanswered terms: 2
+   Agent      unanswered terms: 0
+
+   system       exact  compat  incomp  general  specific   stab
+   B0            62.0    83.2    16.8      0.7      20.4  0.973
+   B1+CoT        61.3    81.8    18.2      0.0      20.4  0.959
+   Agent         56.9    97.8     2.2     28.5      12.4  0.943
+
+   McNemar (exact binomial), agent vs baseline:
+   B0         exact         only agent:  12   only B0:  19   p = 0.28
+   B0         incompatible  only agent:   1   only B0:  21   p = 1.1e-05
+   B1+CoT     exact         only agent:  13   only B1+CoT:  19   p = 0.38
+   B1+CoT     incompatible  only agent:   1   only B1+CoT:  23   p = 3e-06
+
+   Agent calibration (runs on common terms):
+   high    runs   67   exact 100.0   compatible 100.0
+   medium  runs  216   exact  63.9   compatible  99.5
+   low     runs  125   exact  24.8   compatible  94.4
+
+   Validator: class changed in 2.9% of runs; incompatible runs 9 before -> 8 after validation
+==============================================================================
+Files written to results/paper/: final_table.csv, final_table.tex, excluded_terms.csv, per_term_<dataset>.csv

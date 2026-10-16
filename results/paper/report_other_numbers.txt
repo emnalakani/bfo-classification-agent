@@ -1,0 +1,72 @@
+
+========================================================================
+Table 1 - test sets (Section 4.1)
+========================================================================
+OBI   native  4286  kept  4201  sample  140  BFO classes 9
+ENVO  native  4317  kept  3467  sample  139  BFO classes 14
+BFO classes covered by the two samples together: 15
+
+========================================================================
+McNemar B0 vs B1+CoT (Section 5.1)
+========================================================================
+OBI   exact        only B0:   3  only B1+CoT:   0  p = 0.25
+OBI   conflicting  only B0:   0  only B1+CoT:   0  p = 1
+ENVO  exact        only B0:   3  only B1+CoT:   2  p = 1
+ENVO  conflicting  only B0:   2  only B1+CoT:   4  p = 0.69
+
+========================================================================
+Fisher's exact tests, ENVO (Section 5.1)
+========================================================================
+B0      agent more general on 20/23 terms where B0 conflicts, 18/85 where B0 is exact;  p = 1.0e-08
+B1+CoT  agent more general on 21/25 terms where B1+CoT conflicts, 18/84 where B1+CoT is exact;  p = 2.1e-08
+
+========================================================================
+Refining agent runs on ENVO activities (Section 5.2)
+========================================================================
+runs answering process for a term whose reference is occurrent: {'medium': 45}
+
+========================================================================
+Disagreements of the agent (Section 5.3)
+========================================================================
+OBI: 27 disagreements {'more_general': 9, 'incompatible': 4, 'more_specific': 14}
+   refining (reference -> agent): {('material_entity', 'object'): 13, ('material_entity', 'object_aggregate'): 1}
+   refining exactly one level below the reference: 14
+   more general: mean levels above reference 2.0; ambiguous 6
+   distinction at which they stop: {'D3 realizable vs quality': 3, 'D2 dependence on a bearer': 3, 'D3 role / disposition / function': 2, 'D4 material vs immaterial': 1}
+ENVO: 59 disagreements {'more_general': 39, 'incompatible': 3, 'more_specific': 17}
+   refining (reference -> agent): {('material_entity', 'object'): 1, ('material_entity', 'fiat_object_part'): 1, ('occurrent', 'process'): 15}
+   refining exactly one level below the reference: 17
+   more general: mean levels above reference 1.6; ambiguous 29
+   distinction at which they stop: {'D3 realizable vs quality': 5, 'D2 dependence on a bearer': 5, 'D3 role / disposition / function': 1, 'D4 material vs immaterial': 9, 'D5 unity: object / aggregate / part': 15, 'D6 kind of occurrent or region': 3, 'D0 conservative COMMON answer (no contested step)': 1}
+
+========================================================================
+Table 4 - conflicting answers of the agent with manual labels (Section 5.3)
+========================================================================
+OBI   disposition to cause an allergic reaction     ref disposition        agent role                              origin internal
+OBI   disposition to infect an organism             ref disposition        agent role                              origin internal
+OBI   quantile number of false positives correction ref process            agent generically_dependent_continuant  origin vague
+OBI   jet_in_air_flow_chamber                       ref site               agent material_entity                   origin internal
+ENVO  area of cropland                              ref fiat_object_part   agent immaterial_entity                 origin agent
+ENVO  speed of soil water infiltration              ref quality            agent process_profile                   origin alignment
+ENVO  volume of evapotranspiration                  ref quality            agent occurrent                         origin agent
+
+========================================================================
+history answers (Section 5.3)
+========================================================================
+OBI   B0      runs answering history: 0 {}
+OBI   B1+CoT  runs answering history: 0 {}
+OBI   Agent   runs answering history: 0 {}
+ENVO  B0      runs answering history: 0 {}
+ENVO  B1+CoT  runs answering history: 3 {'ice age': 2, 'agricultural land conversion process': 1}
+ENVO  Agent   runs answering history: 0 {}
+ice age, B0     : ['one_dimensional_temporal_region', 'one_dimensional_temporal_region', 'one_dimensional_temporal_region']
+ice age, B1+CoT : ['one_dimensional_temporal_region', 'history', 'history']
+ice age, Agent  : ['one_dimensional_temporal_region', 'one_dimensional_temporal_region', 'one_dimensional_temporal_region']
+
+========================================================================
+Conflicting answers placed in a class disjoint from the reference (Section 6)
+========================================================================
+disjoint pairs declared in BFO 2020: 26
+B0      conflicting answers on paired terms: 26, disjoint from the reference: 23
+B1+CoT  conflicting answers on paired terms: 28, disjoint from the reference: 25
+Agent   conflicting answers on paired terms: 7, disjoint from the reference: 7

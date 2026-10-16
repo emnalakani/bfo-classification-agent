@@ -1,0 +1,318 @@
+{
+ "source": "BFO 2020 (ISO/IEC 21838-2), bfo-core.owl, versionIRI http://purl.obolibrary.org/obo/bfo/2020/bfo-core.owl",
+ "note": "Pairs declared disjoint with owl:disjointWith or owl:AllDisjointClasses. Two classes are disjoint if a pair of their ancestors (or themselves) is declared disjoint.",
+ "pairs": [
+  [
+   {
+    "iri": "http://purl.obolibrary.org/obo/BFO_0000002",
+    "label": "continuant",
+    "id": "continuant"
+   },
+   {
+    "iri": "http://purl.obolibrary.org/obo/BFO_0000003",
+    "label": "occurrent",
+    "id": "occurrent"
+   }
+  ],
+  [
+   {
+    "iri": "http://purl.obolibrary.org/obo/BFO_0000004",
+    "label": "independent continuant",
+    "id": "independent_continuant"
+   },
+   {
+    "iri": "http://purl.obolibrary.org/obo/BFO_0000020",
+    "label": "specifically dependent continuant",
+    "id": "specifically_dependent_continuant"
+   }
+  ],
+  [
+   {
+    "iri": "http://purl.obolibrary.org/obo/BFO_0000004",
+    "label": "independent continuant",
+    "id": "independent_continuant"
+   },
+   {
+    "iri": "http://purl.obolibrary.org/obo/BFO_0000031",
+    "label": "generically dependent continuant",
+    "id": "generically_dependent_continuant"
+   }
+  ],
+  [
+   {
+    "iri": "http://purl.obolibrary.org/obo/BFO_0000006",
+    "label": "spatial region",
+    "id": "spatial_region"
+   },
+   {
+    "iri": "http://purl.obolibrary.org/obo/BFO_0000029",
+    "label": "site",
+    "id": "site"
+   }
+  ],
+  [
+   {
+    "iri": "http://purl.obolibrary.org/obo/BFO_0000006",
+    "label": "spatial region",
+    "id": "spatial_region"
+   },
+   {
+    "iri": "http://purl.obolibrary.org/obo/BFO_0000140",
+    "label": "continuant fiat boundary",
+    "id": "continuant_fiat_boundary"
+   }
+  ],
+  [
+   {
+    "iri": "http://purl.obolibrary.org/obo/BFO_0000008",
+    "label": "temporal region",
+    "id": "temporal_region"
+   },
+   {
+    "iri": "http://purl.obolibrary.org/obo/BFO_0000011",
+    "label": "spatiotemporal region",
+    "id": "spatiotemporal_region"
+   }
+  ],
+  [
+   {
+    "iri": "http://purl.obolibrary.org/obo/BFO_0000008",
+    "label": "temporal region",
+    "id": "temporal_region"
+   },
+   {
+    "iri": "http://purl.obolibrary.org/obo/BFO_0000015",
+    "label": "process",
+    "id": "process"
+   }
+  ],
+  [
+   {
+    "iri": "http://purl.obolibrary.org/obo/BFO_0000008",
+    "label": "temporal region",
+    "id": "temporal_region"
+   },
+   {
+    "iri": "http://purl.obolibrary.org/obo/BFO_0000035",
+    "label": "process boundary",
+    "id": "process_boundary"
+   }
+  ],
+  [
+   {
+    "iri": "http://purl.obolibrary.org/obo/BFO_0000009",
+    "label": "two-dimensional spatial region",
+    "id": "two_dimensional_spatial_region"
+   },
+   {
+    "iri": "http://purl.obolibrary.org/obo/BFO_0000018",
+    "label": "zero-dimensional spatial region",
+    "id": "zero_dimensional_spatial_region"
+   }
+  ],
+  [
+   {
+    "iri": "http://purl.obolibrary.org/obo/BFO_0000009",
+    "label": "two-dimensional spatial region",
+    "id": "two_dimensional_spatial_region"
+   },
+   {
+    "iri": "http://purl.obolibrary.org/obo/BFO_0000026",
+    "label": "one-dimensional spatial region",
+    "id": "one_dimensional_spatial_region"
+   }
+  ],
+  [
+   {
+    "iri": "http://purl.obolibrary.org/obo/BFO_0000009",
+    "label": "two-dimensional spatial region",
+    "id": "two_dimensional_spatial_region"
+   },
+   {
+    "iri": "http://purl.obolibrary.org/obo/BFO_0000028",
+    "label": "three-dimensional spatial region",
+    "id": "three_dimensional_spatial_region"
+   }
+  ],
+  [
+   {
+    "iri": "http://purl.obolibrary.org/obo/BFO_0000011",
+    "label": "spatiotemporal region",
+    "id": "spatiotemporal_region"
+   },
+   {
+    "iri": "http://purl.obolibrary.org/obo/BFO_0000015",
+    "label": "process",
+    "id": "process"
+   }
+  ],
+  [
+   {
+    "iri": "http://purl.obolibrary.org/obo/BFO_0000011",
+    "label": "spatiotemporal region",
+    "id": "spatiotemporal_region"
+   },
+   {
+    "iri": "http://purl.obolibrary.org/obo/BFO_0000035",
+    "label": "process boundary",
+    "id": "process_boundary"
+   }
+  ],
+  [
+   {
+    "iri": "http://purl.obolibrary.org/obo/BFO_0000015",
+    "label": "process",
+    "id": "process"
+   },
+   {
+    "iri": "http://purl.obolibrary.org/obo/BFO_0000035",
+    "label": "process boundary",
+    "id": "process_boundary"
+   }
+  ],
+  [
+   {
+    "iri": "http://purl.obolibrary.org/obo/BFO_0000016",
+    "label": "disposition",
+    "id": "disposition"
+   },
+   {
+    "iri": "http://purl.obolibrary.org/obo/BFO_0000023",
+    "label": "role",
+    "id": "role"
+   }
+  ],
+  [
+   {
+    "iri": "http://purl.obolibrary.org/obo/BFO_0000017",
+    "label": "realizable entity",
+    "id": "realizable_entity"
+   },
+   {
+    "iri": "http://purl.obolibrary.org/obo/BFO_0000019",
+    "label": "quality",
+    "id": "quality"
+   }
+  ],
+  [
+   {
+    "iri": "http://purl.obolibrary.org/obo/BFO_0000018",
+    "label": "zero-dimensional spatial region",
+    "id": "zero_dimensional_spatial_region"
+   },
+   {
+    "iri": "http://purl.obolibrary.org/obo/BFO_0000026",
+    "label": "one-dimensional spatial region",
+    "id": "one_dimensional_spatial_region"
+   }
+  ],
+  [
+   {
+    "iri": "http://purl.obolibrary.org/obo/BFO_0000018",
+    "label": "zero-dimensional spatial region",
+    "id": "zero_dimensional_spatial_region"
+   },
+   {
+    "iri": "http://purl.obolibrary.org/obo/BFO_0000028",
+    "label": "three-dimensional spatial region",
+    "id": "three_dimensional_spatial_region"
+   }
+  ],
+  [
+   {
+    "iri": "http://purl.obolibrary.org/obo/BFO_0000020",
+    "label": "specifically dependent continuant",
+    "id": "specifically_dependent_continuant"
+   },
+   {
+    "iri": "http://purl.obolibrary.org/obo/BFO_0000031",
+    "label": "generically dependent continuant",
+    "id": "generically_dependent_continuant"
+   }
+  ],
+  [
+   {
+    "iri": "http://purl.obolibrary.org/obo/BFO_0000026",
+    "label": "one-dimensional spatial region",
+    "id": "one_dimensional_spatial_region"
+   },
+   {
+    "iri": "http://purl.obolibrary.org/obo/BFO_0000028",
+    "label": "three-dimensional spatial region",
+    "id": "three_dimensional_spatial_region"
+   }
+  ],
+  [
+   {
+    "iri": "http://purl.obolibrary.org/obo/BFO_0000029",
+    "label": "site",
+    "id": "site"
+   },
+   {
+    "iri": "http://purl.obolibrary.org/obo/BFO_0000140",
+    "label": "continuant fiat boundary",
+    "id": "continuant_fiat_boundary"
+   }
+  ],
+  [
+   {
+    "iri": "http://purl.obolibrary.org/obo/BFO_0000038",
+    "label": "one-dimensional temporal region",
+    "id": "one_dimensional_temporal_region"
+   },
+   {
+    "iri": "http://purl.obolibrary.org/obo/BFO_0000148",
+    "label": "zero-dimensional temporal region",
+    "id": "zero_dimensional_temporal_region"
+   }
+  ],
+  [
+   {
+    "iri": "http://purl.obolibrary.org/obo/BFO_0000040",
+    "label": "material entity",
+    "id": "material_entity"
+   },
+   {
+    "iri": "http://purl.obolibrary.org/obo/BFO_0000141",
+    "label": "immaterial entity",
+    "id": "immaterial_entity"
+   }
+  ],
+  [
+   {
+    "iri": "http://purl.obolibrary.org/obo/BFO_0000142",
+    "label": "fiat line",
+    "id": "one_dimensional_continuant_fiat_boundary"
+   },
+   {
+    "iri": "http://purl.obolibrary.org/obo/BFO_0000146",
+    "label": "fiat surface",
+    "id": "two_dimensional_continuant_fiat_boundary"
+   }
+  ],
+  [
+   {
+    "iri": "http://purl.obolibrary.org/obo/BFO_0000142",
+    "label": "fiat line",
+    "id": "one_dimensional_continuant_fiat_boundary"
+   },
+   {
+    "iri": "http://purl.obolibrary.org/obo/BFO_0000147",
+    "label": "fiat point",
+    "id": "zero_dimensional_continuant_fiat_boundary"
+   }
+  ],
+  [
+   {
+    "iri": "http://purl.obolibrary.org/obo/BFO_0000146",
+    "label": "fiat surface",
+    "id": "two_dimensional_continuant_fiat_boundary"
+   },
+   {
+    "iri": "http://purl.obolibrary.org/obo/BFO_0000147",
+    "label": "fiat point",
+    "id": "zero_dimensional_continuant_fiat_boundary"
+   }
+  ]
+ ]
+}

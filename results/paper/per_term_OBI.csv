@@ -1,0 +1,130 @@
+term,gold,B0_class,B0_outcome,B0_stability,B1+CoT_class,B1+CoT_outcome,B1+CoT_stability,Agent_class,Agent_outcome,Agent_stability
+allergy,disposition,disposition,exact,1.0,disposition,exact,1.0,disposition,exact,0.6666666666666666
+autoimmune disease,disposition,disposition,exact,1.0,disposition,exact,1.0,specifically_dependent_continuant,more_general,0.6666666666666666
+cancer,disposition,disposition,exact,1.0,disposition,exact,1.0,specifically_dependent_continuant,more_general,1.0
+disposition to be a product of antigen processing and presentation,disposition,disposition,exact,1.0,disposition,exact,1.0,disposition,exact,1.0
+disposition to be bound by an adaptive immune receptor,disposition,disposition,exact,1.0,disposition,exact,1.0,disposition,exact,1.0
+disposition to be bound by an MHC protein complex,disposition,disposition,exact,1.0,disposition,exact,1.0,disposition,exact,1.0
+disposition to cause an allergic reaction,disposition,disposition,exact,1.0,disposition,exact,1.0,role,other_branch,1.0
+disposition to infect an organism,disposition,disposition,exact,1.0,disposition,exact,1.0,role,other_branch,1.0
+infectious disease,disposition,disposition,exact,1.0,disposition,exact,1.0,specifically_dependent_continuant,more_general,0.6666666666666666
+adaptive immune effector function,function,function,exact,1.0,function,exact,1.0,function,exact,1.0
+antigen presentation function,function,function,exact,1.0,function,exact,1.0,function,exact,1.0
+consume data function,function,function,exact,1.0,function,exact,1.0,function,exact,1.0
+cool function,function,function,exact,1.0,function,exact,1.0,function,exact,1.0
+effector T cell function,function,function,exact,1.0,function,exact,1.0,function,exact,1.0
+electricity supply function,function,function,exact,1.0,function,exact,1.0,continuant,more_general,1.0
+energy supply function,function,function,exact,1.0,function,exact,1.0,function,exact,1.0
+excitation function,function,function,exact,1.0,function,exact,1.0,function,exact,1.0
+freeze function,function,function,exact,1.0,function,exact,1.0,function,exact,1.0
+information processor function,function,function,exact,1.0,function,exact,1.0,function,exact,1.0
+injection function,function,function,exact,1.0,function,exact,1.0,function,exact,1.0
+ionization function,function,function,exact,1.0,function,exact,1.0,function,exact,1.0
+light emission function,function,function,exact,1.0,function,exact,1.0,continuant,more_general,0.3333333333333333
+liquid filter function,function,function,exact,1.0,function,exact,1.0,disposition,more_general,0.5
+magnify function,function,function,exact,1.0,function,exact,1.0,function,exact,1.0
+material separation function,function,function,exact,1.0,function,exact,1.0,function,exact,1.0
+reagent application function,function,function,exact,1.0,function,exact,1.0,function,exact,1.0
+record function,function,function,exact,1.0,function,exact,1.0,function,exact,1.0
+signal amplification function,function,function,exact,1.0,function,exact,1.0,disposition,more_general,0.3333333333333333
+solid support function,function,function,exact,1.0,function,exact,1.0,function,exact,1.0
+sort function,function,function,exact,1.0,function,exact,1.0,function,exact,1.0
+specimen fixation function,function,function,exact,1.0,function,exact,1.0,function,exact,1.0
+stabilization function,function,function,exact,1.0,function,exact,1.0,function,exact,1.0
+synthesizing function,function,function,exact,1.0,function,exact,1.0,function,exact,1.0
+transfer function,function,function,exact,1.0,function,exact,1.0,function,exact,1.0
+age since coitus measurement datum,generically_dependent_continuant,generically_dependent_continuant,exact,1.0,generically_dependent_continuant,exact,1.0,generically_dependent_continuant,exact,1.0
+assay validation objective,generically_dependent_continuant,generically_dependent_continuant,exact,1.0,generically_dependent_continuant,exact,1.0,generically_dependent_continuant,exact,1.0
+base calling algorithm,generically_dependent_continuant,generically_dependent_continuant,exact,1.0,generically_dependent_continuant,exact,1.0,generically_dependent_continuant,exact,1.0
+BMI range inclusion criterion,generically_dependent_continuant,generically_dependent_continuant,exact,1.0,generically_dependent_continuant,exact,1.0,generically_dependent_continuant,exact,1.0
+cerebrospinal fluid assay datum,generically_dependent_continuant,generically_dependent_continuant,exact,1.0,generically_dependent_continuant,exact,1.0,generically_dependent_continuant,exact,1.0
+chemotherapy treatment exclusion criterion,generically_dependent_continuant,generically_dependent_continuant,exact,1.0,generically_dependent_continuant,exact,1.0,generically_dependent_continuant,exact,1.0
+ChIP-chip design,generically_dependent_continuant,generically_dependent_continuant,exact,1.0,generically_dependent_continuant,exact,1.0,generically_dependent_continuant,exact,1.0
+clustered data set,generically_dependent_continuant,generically_dependent_continuant,exact,1.0,generically_dependent_continuant,exact,1.0,generically_dependent_continuant,exact,1.0
+eligibility criterion,generically_dependent_continuant,generically_dependent_continuant,exact,1.0,generically_dependent_continuant,exact,1.0,generically_dependent_continuant,exact,1.0
+email address of sequencing facility contact person,generically_dependent_continuant,generically_dependent_continuant,exact,1.0,generically_dependent_continuant,exact,1.0,generically_dependent_continuant,exact,1.0
+genetic transformation objective,generically_dependent_continuant,generically_dependent_continuant,exact,1.0,generically_dependent_continuant,exact,1.0,generically_dependent_continuant,exact,1.0
+histologic grade according to the Fuhrman Nuclear Grading System,generically_dependent_continuant,generically_dependent_continuant,exact,1.0,generically_dependent_continuant,exact,1.0,generically_dependent_continuant,exact,1.0
+history of sex with someone with a history of blood borne infection  exclusion criterion,generically_dependent_continuant,generically_dependent_continuant,exact,1.0,generically_dependent_continuant,exact,1.0,generically_dependent_continuant,exact,1.0
+loop design,generically_dependent_continuant,generically_dependent_continuant,exact,1.0,generically_dependent_continuant,exact,1.0,generically_dependent_continuant,exact,1.0
+pathologic distant metastases stage for kidney according to AJCC 7th edition,generically_dependent_continuant,generically_dependent_continuant,exact,1.0,generically_dependent_continuant,exact,1.0,generically_dependent_continuant,exact,1.0
+quantitative binding datum,generically_dependent_continuant,generically_dependent_continuant,exact,1.0,generically_dependent_continuant,exact,1.0,generically_dependent_continuant,exact,1.0
+quantitative confidence value,generically_dependent_continuant,generically_dependent_continuant,exact,1.0,generically_dependent_continuant,exact,1.0,generically_dependent_continuant,exact,1.0
+reference gene sequence stop site,generically_dependent_continuant,zero_dimensional_continuant_fiat_boundary,other_branch,1.0,zero_dimensional_continuant_fiat_boundary,other_branch,1.0,continuant,more_general,1.0
+sequential organ failure assessment score,generically_dependent_continuant,generically_dependent_continuant,exact,1.0,generically_dependent_continuant,exact,1.0,generically_dependent_continuant,exact,1.0
+sex inclusion criterion,generically_dependent_continuant,generically_dependent_continuant,exact,1.0,generically_dependent_continuant,exact,1.0,generically_dependent_continuant,exact,1.0
+target material in specimen specification,generically_dependent_continuant,generically_dependent_continuant,exact,1.0,generically_dependent_continuant,exact,1.0,generically_dependent_continuant,exact,1.0
+training objective,generically_dependent_continuant,generically_dependent_continuant,exact,1.0,generically_dependent_continuant,exact,1.0,generically_dependent_continuant,exact,1.0
+transcription profiling by high throughput sequencing design,generically_dependent_continuant,generically_dependent_continuant,exact,1.0,generically_dependent_continuant,exact,1.0,generically_dependent_continuant,exact,1.0
+translation profiling design,generically_dependent_continuant,generically_dependent_continuant,exact,1.0,generically_dependent_continuant,exact,1.0,generically_dependent_continuant,exact,1.0
+adaptive immune receptor,material_entity,object,more_specific,1.0,object,more_specific,1.0,material_entity,exact,1.0
+affinity column,material_entity,object,more_specific,1.0,object,more_specific,1.0,material_entity,exact,0.6666666666666666
+chip spotting device,material_entity,object,more_specific,1.0,object,more_specific,1.0,object,more_specific,1.0
+disposable footwear cover,material_entity,object,more_specific,1.0,object,more_specific,1.0,object,more_specific,1.0
+electron capture detector,material_entity,object,more_specific,1.0,object,more_specific,1.0,material_entity,exact,1.0
+Epstein Barr virus transformed B cell,material_entity,object,more_specific,1.0,object,more_specific,1.0,object,more_specific,1.0
+genetic material,material_entity,object_aggregate,more_specific,1.0,object,more_specific,1.0,material_entity,exact,0.6666666666666666
+Illumina MouseRef-8 v2.0 beadchip,material_entity,object,more_specific,1.0,object,more_specific,1.0,object,more_specific,1.0
+image cytometer,material_entity,object,more_specific,1.0,object,more_specific,1.0,object,more_specific,1.0
+Influx Cell Sorter,material_entity,object,more_specific,1.0,object,more_specific,1.0,object,more_specific,1.0
+JAWS II cell line,material_entity,object_aggregate,more_specific,1.0,object_aggregate,more_specific,1.0,object_aggregate,more_specific,1.0
+JEOL ECA NMR spectrometer,material_entity,object,more_specific,1.0,object,more_specific,1.0,object,more_specific,0.6666666666666666
+Leica Peloris rapid tissue processor,material_entity,object,more_specific,1.0,object,more_specific,1.0,object,more_specific,1.0
+manufacturer,material_entity,object_aggregate,more_specific,0.6666666666666666,object,more_specific,1.0,material_entity,exact,1.0
+microwave synthesis system,material_entity,object,more_specific,1.0,object,more_specific,1.0,object,more_specific,1.0
+NMR tube washing system,material_entity,object,more_specific,1.0,object,more_specific,1.0,object,more_specific,1.0
+oligonucleotide primer set,material_entity,object_aggregate,more_specific,1.0,object_aggregate,more_specific,1.0,material_entity,exact,1.0
+polyA RNA extract,material_entity,object_aggregate,more_specific,1.0,object_aggregate,more_specific,0.6666666666666666,material_entity,exact,1.0
+stereo microscope,material_entity,object,more_specific,1.0,object,more_specific,1.0,object,more_specific,1.0
+sticky resting bucket,material_entity,object,more_specific,1.0,object,more_specific,1.0,object,more_specific,1.0
+surface plasmon resonance instrument,material_entity,object,more_specific,1.0,object,more_specific,1.0,object,more_specific,0.6666666666666666
+tracheal aspirate specimen,material_entity,material_entity,exact,1.0,object,more_specific,1.0,material_entity,exact,1.0
+urethra specimen,material_entity,material_entity,exact,1.0,object,more_specific,1.0,material_entity,exact,1.0
+antibody purification of human MHC class I protein complex,process,process,exact,1.0,process,exact,1.0,process,exact,1.0
+assay measuring epitope specific interleukin-25 production by T cells,process,process,exact,1.0,process,exact,1.0,process,exact,1.0
+assay measuring qualitative binding of a MHC:ligand complex,process,process,exact,1.0,process,exact,1.0,process,exact,1.0
+bile salt concentration assay,process,process,exact,1.0,process,exact,1.0,process,exact,1.0
+CBC with manual differential venous blood monocyte count assay,process,process,exact,1.0,process,exact,1.0,process,exact,1.0
+cytometric bead array assay measuring epitope specific chemokine (C-C motif) ligand 4 production by T cells,process,process,exact,1.0,process,exact,1.0,process,exact,1.0
+detection of specific nucleic acids with complementary probes assay measuring epitope specific chemokine (C-C motif) ligand 19 production by T cells,process,process,exact,1.0,process,exact,1.0,process,exact,1.0
+detection of specific nucleic acids with complementary probes assay measuring epitope specific interleukin-9 production by T cells,process,process,exact,1.0,process,exact,1.0,process,exact,1.0
+DNA methylation profiling by high throughput sequencing assay,process,process,exact,1.0,process,exact,1.0,process,exact,1.0
+enhancer activity detection by reporter gene assay,process,process,exact,1.0,process,exact,1.0,process,exact,0.6666666666666666
+IHC slide staining,process,process,exact,1.0,process,exact,1.0,process,exact,1.0
+intra-amniotic administration,process,process,exact,1.0,process,exact,1.0,process,exact,1.0
+intracellular cytokine staining assay measuring epitope specific interleukin-6 production by T cells,process,process,exact,1.0,process,exact,1.0,process,exact,1.0
+lipid profiling assay,process,process,exact,1.0,process,exact,1.0,process,exact,1.0
+organellar RNA extraction,process,process,exact,1.0,process,exact,1.0,process,exact,1.0
+organism detection by cross mating assay,process,process,exact,1.0,process,exact,1.0,process,exact,1.0
+organism detection by morphological examination assay,process,process,exact,1.0,process,exact,1.0,process,exact,1.0
+pathological macroscopic examination of specimen assay,process,process,exact,1.0,process,exact,1.0,process,exact,1.0
+quantile number of false positives correction method,process,generically_dependent_continuant,wrong_main_branch,1.0,generically_dependent_continuant,wrong_main_branch,1.0,generically_dependent_continuant,wrong_main_branch,1.0
+Southwestern blot assay,process,process,exact,1.0,process,exact,1.0,process,exact,1.0
+total thyroxine concentration assay,process,process,exact,1.0,process,exact,1.0,process,exact,1.0
+upright stability assessment,process,process,exact,1.0,process,exact,1.0,process,exact,1.0
+DNA residue methylation,quality,quality,exact,1.0,quality,exact,1.0,quality,exact,1.0
+fasted,quality,quality,exact,1.0,quality,exact,1.0,quality,exact,1.0
+secondary structure of sequence macromolecule,quality,quality,exact,1.0,quality,exact,1.0,quality,exact,1.0
+plan,realizable_entity,realizable_entity,exact,1.0,role,more_specific,1.0,realizable_entity,exact,1.0
+antigen role,role,role,exact,1.0,role,exact,1.0,role,exact,1.0
+biological replicate role,role,role,exact,1.0,role,exact,1.0,role,exact,0.6666666666666666
+buffer role,role,role,exact,1.0,role,exact,1.0,role,exact,1.0
+calibration substance role,role,role,exact,1.0,role,exact,1.0,role,exact,1.0
+competitive binding reference ligand role,role,role,exact,1.0,role,exact,1.0,role,exact,1.0
+compound study group role,role,role,exact,1.0,role,exact,1.0,role,exact,1.0
+crossover population role,role,role,exact,1.0,role,exact,1.0,role,exact,1.0
+dye role,role,role,exact,1.0,role,exact,1.0,role,exact,1.0
+magnetic resonance imaging evaluant role,role,role,exact,1.0,role,exact,1.0,role,exact,1.0
+material sample role,role,role,exact,1.0,role,exact,1.0,role,exact,1.0
+material to be added role,role,role,exact,1.0,role,exact,1.0,role,exact,1.0
+measurand role,role,role,exact,1.0,role,exact,1.0,role,exact,1.0
+pathogen role,role,role,exact,1.0,role,exact,1.0,role,exact,1.0
+pathologist role,role,role,exact,1.0,role,exact,1.0,role,exact,1.0
+reagent role,role,role,exact,1.0,role,exact,1.0,role,exact,1.0
+reference subject role,role,role,exact,1.0,role,exact,1.0,role,exact,1.0
+service provider role,role,role,exact,1.0,role,exact,1.0,role,exact,1.0
+sponsor role,role,role,exact,1.0,role,exact,1.0,role,exact,1.0
+target of material addition role,role,role,exact,1.0,role,exact,1.0,role,exact,1.0
+worker role,role,role,exact,1.0,role,exact,1.0,role,exact,1.0
+interrogation_point,site,site,exact,1.0,site,exact,0.6666666666666666,immaterial_entity,more_general,1.0
+jet_in_air_flow_chamber,site,object,other_branch,1.0,object,other_branch,1.0,material_entity,other_branch,0.6666666666666666

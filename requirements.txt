@@ -1,0 +1,11 @@
+# Versions used for the reported experiments (Python 3.14.4).
+# Recomputing the paper's numbers from saved outputs (evaluation/) needs only
+# the Python standard library; these packages are needed to run the
+# classification server and re-run the LLM experiments.
+fastapi==0.142.2
+uvicorn[standard]==0.54.0
+openai==3.23.0
+python-dotenv==1.2.4
+pydantic==2.13.5
+# Only for rebuilding the term lists from the OWL releases (datasets/construction/).
+rdflib==7.6.0

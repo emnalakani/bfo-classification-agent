@@ -1,0 +1,74 @@
+{
+  "terms": 12,
+  "terms_evaluated": 12,
+  "runs_per_term": 3,
+  "failed_calls_total": 0,
+  "exact_with_any_annotator": 0.417,
+  "compatible_with_any_annotator": 0.75,
+  "mean_stability": 0.972,
+  "fully_stable_terms": 0.917,
+  "mean_valid_first_attempt": 1.0,
+  "mean_repair_rate": 0.0,
+  "mean_fallback_rate": 0.0,
+  "mean_ambiguous_rate": 0.972,
+  "mean_validator_changed_class_rate": 0.0,
+  "mean_genus_verified_rate": 1.0,
+  "mean_anchor_rate": 0.0,
+  "per_annotator": {
+    "gold_v1": {
+      "validated": {
+        "other_branch": 0.25,
+        "wrong_main_branch": 0.167,
+        "exact": 0.333,
+        "agent_more_general": 0.25
+      },
+      "model_before_validation": {
+        "other_branch": 0.25,
+        "wrong_main_branch": 0.167,
+        "exact": 0.333,
+        "agent_more_general": 0.25
+      }
+    },
+    "gold_v2": {
+      "validated": {
+        "exact": 0.167,
+        "agent_more_general": 0.5,
+        "other_branch": 0.25,
+        "wrong_main_branch": 0.083
+      },
+      "model_before_validation": {
+        "exact": 0.167,
+        "agent_more_general": 0.5,
+        "other_branch": 0.25,
+        "wrong_main_branch": 0.083
+      }
+    }
+  },
+  "human_human_exact_agreement": {
+    "gold_v1~gold_v2": 0.417
+  },
+  "mean_human_human_exact": 0.417,
+  "mean_system_human_exact_majority": 0.25,
+  "mean_system_human_exact_per_run": 0.25,
+  "outcomes_pooled_over_annotators": {
+    "agent_more_general": 0.375,
+    "other_branch": 0.25,
+    "exact": 0.25,
+    "wrong_main_branch": 0.125
+  },
+  "ties": 0,
+  "meta": {
+    "csv": "goro.csv",
+    "system": "agent",
+    "mode": "definition_only",
+    "backend": {
+      "status": "ok",
+      "model": "claude-sonnet-5-5",
+      "max_tokens": 4000,
+      "temperature": "rejected by this model: not sent (provider default)",
+      "base_url": "https://api.anthropic.com/v1/",
+      "key": "<redacted>"
+    },
+    "date": "2026-10-02 16:28:38"
+  }
+}

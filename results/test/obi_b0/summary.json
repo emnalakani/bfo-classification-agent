@@ -1,0 +1,69 @@
+{
+  "terms": 140,
+  "terms_evaluated": 140,
+  "runs_per_term": 3,
+  "failed_calls_total": 18,
+  "exact_with_any_annotator": 0.8,
+  "compatible_with_any_annotator": 0.964,
+  "mean_stability": 0.998,
+  "fully_stable_terms": 0.993,
+  "mean_valid_first_attempt": 0.0,
+  "mean_repair_rate": 0.0,
+  "mean_fallback_rate": 0.0,
+  "mean_ambiguous_rate": 0.0,
+  "mean_validator_changed_class_rate": 0.0,
+  "mean_genus_verified_rate": 1.0,
+  "mean_anchor_rate": 0.0,
+  "terms_with_source_conflict": [],
+  "per_annotator": {
+    "gold_ontology": {
+      "validated": {
+        "exact": 0.8,
+        "other_branch": 0.014,
+        "agent_more_specific": 0.164,
+        "no_class": 0.014,
+        "wrong_main_branch": 0.007
+      },
+      "model_before_validation": {
+        "exact": 0.8,
+        "other_branch": 0.014,
+        "agent_more_specific": 0.164,
+        "no_class": 0.014,
+        "wrong_main_branch": 0.007
+      }
+    }
+  },
+  "human_human_exact_agreement": {},
+  "mean_human_human_exact": null,
+  "mean_system_human_exact_majority": 0.8,
+  "mean_system_human_exact_per_run": 0.8,
+  "outcomes_pooled_over_annotators": {
+    "exact": 0.8,
+    "agent_more_specific": 0.164,
+    "other_branch": 0.014,
+    "no_class": 0.014,
+    "wrong_main_branch": 0.007
+  },
+  "ties": 0,
+  "calibration": {
+    "?": {
+      "runs": 420,
+      "exact_rate": 0.8,
+      "compatible_rate": 0.964
+    }
+  },
+  "meta": {
+    "csv": "obi_sample.csv",
+    "system": "baseline_naive",
+    "mode": "n/a",
+    "backend": {
+      "status": "ok",
+      "model": "claude-sonnet-5-5",
+      "max_tokens": 4000,
+      "temperature": "0.0",
+      "base_url": "https://api.anthropic.com/v1/",
+      "key": "<redacted>"
+    },
+    "date": "2026-10-07 12:07:58"
+  }
+}

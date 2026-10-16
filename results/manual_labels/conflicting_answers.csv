@@ -1,0 +1,8 @@
+dataset,term,reference_class,agent_class,agent_alternative_is_reference,origin,rationale
+OBI,disposition to cause an allergic reaction,disposition,role,True,internal,"Named and placed as a disposition but defined as ""the role borne by a material entity that is realized when it is recognized by the immune system""."
+OBI,disposition to infect an organism,disposition,role,True,internal,Named and placed as a disposition but defined as a role.
+OBI,jet_in_air_flow_chamber,site,material_entity,False,internal,"Defined as ""a flow cell in which the cells are pinched off as droplets"" (a device), but placed under site (a space)."
+ENVO,speed of soil water infiltration,quality,process_profile,True,alignment,"In BFO a quality depends on an independent continuant, not on a process; the rate of a process is a process profile."
+OBI,quantile number of false positives correction method,process,generically_dependent_continuant,True,vague,The definition allows both the plan and its execution.
+ENVO,area of cropland,fiat_object_part,immaterial_entity,False,agent,"The agent states that the term may be ""a material parcel of land"" yet answers with a common grade that the entity has no matter."
+ENVO,volume of evapotranspiration,quality,occurrent,False,agent,Agent error with the same cause as area of cropland (paper, Section 5.3).

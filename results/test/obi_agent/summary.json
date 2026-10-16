@@ -1,0 +1,85 @@
+{
+  "terms": 140,
+  "terms_evaluated": 140,
+  "runs_per_term": 3,
+  "failed_calls_total": 0,
+  "exact_with_any_annotator": 0.793,
+  "compatible_with_any_annotator": 0.964,
+  "mean_stability": 0.957,
+  "fully_stable_terms": 0.893,
+  "mean_valid_first_attempt": 0.979,
+  "mean_repair_rate": 0.021,
+  "mean_fallback_rate": 0.0,
+  "mean_ambiguous_rate": 0.193,
+  "mean_validator_changed_class_rate": 0.007,
+  "mean_genus_verified_rate": 1.0,
+  "mean_anchor_rate": 0.314,
+  "terms_with_source_conflict": [
+    "disposition to cause an allergic reaction",
+    "disposition to infect an organism",
+    "plan"
+  ],
+  "per_annotator": {
+    "gold_ontology": {
+      "validated": {
+        "exact": 0.793,
+        "agent_more_general": 0.057,
+        "other_branch": 0.021,
+        "no_class": 0.007,
+        "agent_more_specific": 0.114,
+        "wrong_main_branch": 0.007
+      },
+      "model_before_validation": {
+        "exact": 0.8,
+        "agent_more_general": 0.057,
+        "other_branch": 0.021,
+        "agent_more_specific": 0.114,
+        "wrong_main_branch": 0.007
+      }
+    }
+  },
+  "human_human_exact_agreement": {},
+  "mean_human_human_exact": null,
+  "mean_system_human_exact_majority": 0.793,
+  "mean_system_human_exact_per_run": 0.783,
+  "outcomes_pooled_over_annotators": {
+    "exact": 0.793,
+    "agent_more_specific": 0.114,
+    "agent_more_general": 0.057,
+    "other_branch": 0.021,
+    "no_class": 0.007,
+    "wrong_main_branch": 0.007
+  },
+  "ties": 3,
+  "calibration": {
+    "high": {
+      "runs": 122,
+      "exact_rate": 1.0,
+      "compatible_rate": 1.0
+    },
+    "low": {
+      "runs": 81,
+      "exact_rate": 0.556,
+      "compatible_rate": 0.877
+    },
+    "medium": {
+      "runs": 217,
+      "exact_rate": 0.747,
+      "compatible_rate": 0.986
+    }
+  },
+  "meta": {
+    "csv": "obi_sample.csv",
+    "system": "agent",
+    "mode": "definition_only",
+    "backend": {
+      "status": "ok",
+      "model": "claude-sonnet-5-5",
+      "max_tokens": 4000,
+      "temperature": "rejected by this model: not sent (provider default)",
+      "base_url": "https://api.anthropic.com/v1/",
+      "key": "<redacted>"
+    },
+    "date": "2026-10-06 17:14:29"
+  }
+}

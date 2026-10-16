@@ -1,0 +1,4 @@
+TERM: forested area
+DEFINITION: An area with a high density of trees.
+CLASSIFICATION MODE: definition_only
+DOMAIN (background only, never evidence): environment and ecology

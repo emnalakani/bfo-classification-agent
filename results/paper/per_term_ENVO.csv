@@ -1,0 +1,138 @@
+term,gold,B0_class,B0_outcome,B0_stability,B1+CoT_class,B1+CoT_outcome,B1+CoT_stability,Agent_class,Agent_outcome,Agent_stability
+carbon dioxide pooling disposition,disposition,disposition,exact,1.0,disposition,exact,1.0,disposition,exact,1.0
+carbon pooling disposition,disposition,disposition,exact,1.0,disposition,exact,1.0,disposition,exact,1.0
+cosmic ray shielding disposition,disposition,disposition,exact,1.0,disposition,exact,1.0,disposition,exact,1.0
+electric energy,disposition,quality,other_branch,1.0,quality,other_branch,1.0,specifically_dependent_continuant,more_general,0.6666666666666666
+energy,disposition,disposition,exact,1.0,disposition,exact,1.0,disposition,exact,1.0
+environmental disposition,disposition,disposition,exact,1.0,disposition,exact,1.0,disposition,exact,1.0
+gravitational energy,disposition,quality,other_branch,1.0,quality,other_branch,1.0,specifically_dependent_continuant,more_general,1.0
+material pooling disposition,disposition,disposition,exact,1.0,disposition,exact,1.0,disposition,exact,1.0
+mechanical wave energy,disposition,disposition,exact,1.0,disposition,exact,1.0,disposition,exact,1.0
+net shortwave radiation,disposition,quality,other_branch,0.6666666666666666,quality,other_branch,1.0,continuant,more_general,1.0
+potential energy,disposition,quality,other_branch,1.0,quality,other_branch,1.0,specifically_dependent_continuant,more_general,1.0
+thermal energy,disposition,quality,other_branch,1.0,quality,other_branch,0.6666666666666666,continuant,more_general,0.6666666666666666
+thermoplasticity,disposition,disposition,exact,1.0,disposition,exact,1.0,disposition,exact,1.0
+thermosetting disposition,disposition,disposition,exact,1.0,disposition,exact,1.0,disposition,exact,1.0
+wind wave energy,disposition,disposition,exact,1.0,disposition,exact,1.0,realizable_entity,more_general,1.0
+anthropised terrestrial environmental zone,fiat_object_part,site,other_branch,1.0,site,other_branch,1.0,independent_continuant,more_general,0.6666666666666666
+area of cropland,fiat_object_part,fiat_object_part,exact,1.0,two_dimensional_continuant_fiat_boundary,other_branch,0.6666666666666666,immaterial_entity,other_branch,1.0
+area of deciduous forest,fiat_object_part,two_dimensional_continuant_fiat_boundary,other_branch,0.6666666666666666,two_dimensional_continuant_fiat_boundary,other_branch,0.6666666666666666,independent_continuant,more_general,1.0
+area of emergent herbaceous wetland,fiat_object_part,site,other_branch,1.0,site,other_branch,0.6666666666666666,independent_continuant,more_general,0.6666666666666666
+area of mixed forest,fiat_object_part,site,other_branch,0.6666666666666666,two_dimensional_continuant_fiat_boundary,other_branch,1.0,independent_continuant,more_general,0.6666666666666666
+area of national forest,fiat_object_part,fiat_object_part,exact,1.0,fiat_object_part,exact,0.6666666666666666,material_entity,more_general,0.6666666666666666
+area of sedge- and forb-dominated herbaceous vegetation,fiat_object_part,site,other_branch,1.0,site,other_branch,0.3333333333333333,independent_continuant,more_general,1.0
+chaparral area,fiat_object_part,fiat_object_part,exact,1.0,fiat_object_part,exact,0.6666666666666666,material_entity,more_general,0.6666666666666666
+forested area,fiat_object_part,site,other_branch,0.6666666666666666,object_aggregate,other_branch,1.0,material_entity,more_general,0.6666666666666666
+fourth-order administrative region,fiat_object_part,site,other_branch,1.0,site,other_branch,0.6666666666666666,independent_continuant,more_general,1.0
+IUCN natural monument or feature,fiat_object_part,site,other_branch,1.0,site,other_branch,1.0,material_entity,more_general,1.0
+IUCN protected area with sustainable use of natural resources,fiat_object_part,site,other_branch,1.0,site,other_branch,0.6666666666666666,material_entity,more_general,1.0
+marine park area,fiat_object_part,site,other_branch,0.6666666666666666,site,other_branch,1.0,independent_continuant,more_general,1.0
+site of special scientific interest,fiat_object_part,site,other_branch,0.6666666666666666,site,other_branch,1.0,continuant,more_general,1.0
+tectonic plate boundary,fiat_object_part,fiat_object_part,exact,1.0,fiat_object_part,exact,1.0,material_entity,more_general,1.0
+chemical colorant,function,function,exact,1.0,function,exact,1.0,function,exact,1.0
+glue,function,function,exact,1.0,function,exact,1.0,function,exact,1.0
+letter,generically_dependent_continuant,generically_dependent_continuant,exact,1.0,generically_dependent_continuant,exact,1.0,generically_dependent_continuant,exact,1.0
+backwater,material_entity,site,other_branch,1.0,site,other_branch,0.6666666666666666,material_entity,exact,0.6666666666666666
+ballast tank,material_entity,object,more_specific,1.0,object,more_specific,0.6666666666666666,material_entity,exact,1.0
+desert biome,material_entity,object_aggregate,more_specific,1.0,object_aggregate,more_specific,1.0,material_entity,exact,1.0
+glass building floor,material_entity,object,more_specific,1.0,fiat_object_part,more_specific,1.0,material_entity,exact,1.0
+hypersaline lake,material_entity,object,more_specific,1.0,object,more_specific,1.0,material_entity,exact,0.6666666666666666
+L-(+)-tartrate enriched soil,material_entity,object_aggregate,more_specific,1.0,object,more_specific,0.6666666666666666,material_entity,exact,1.0
+marsh,material_entity,object_aggregate,more_specific,1.0,object_aggregate,more_specific,1.0,material_entity,exact,1.0
+resequent stream,material_entity,object,more_specific,1.0,object,more_specific,1.0,material_entity,exact,1.0
+sandy building floor,material_entity,fiat_object_part,more_specific,0.6666666666666666,fiat_object_part,more_specific,1.0,material_entity,exact,1.0
+sewage plant,material_entity,object,more_specific,1.0,object,more_specific,1.0,object,more_specific,0.6666666666666666
+stream run,material_entity,fiat_object_part,more_specific,1.0,fiat_object_part,more_specific,1.0,fiat_object_part,more_specific,1.0
+tended pasturable land,material_entity,fiat_object_part,more_specific,1.0,fiat_object_part,more_specific,1.0,material_entity,exact,1.0
+tropical marine coral reef biome,material_entity,object_aggregate,more_specific,1.0,object_aggregate,more_specific,1.0,material_entity,exact,1.0
+water-body-derived ice,material_entity,object,more_specific,1.0,object,more_specific,1.0,material_entity,exact,1.0
+achondrite,object,object,exact,1.0,object,exact,1.0,object,exact,1.0
+bubble,object,object,exact,1.0,object,exact,1.0,material_entity,more_general,1.0
+cirrocumulus castellanus cloud,object,object_aggregate,other_branch,0.6666666666666666,object,exact,1.0,material_entity,more_general,0.6666666666666666
+floating ice calf,object,object,exact,1.0,object,exact,1.0,object,exact,0.6666666666666666
+floating ice mass,object,object,exact,1.0,object,exact,1.0,material_entity,more_general,0.6666666666666666
+gas planet,object,object,exact,1.0,object,exact,1.0,object,exact,1.0
+ice tongue,object,object,exact,1.0,object,exact,1.0,material_entity,more_general,1.0
+mass of ice and snow,object,object,exact,1.0,object,exact,1.0,object,exact,1.0
+mega-Earth,object,object,exact,1.0,object,exact,1.0,object,exact,1.0
+mini-Neptune,object,object,exact,1.0,object,exact,1.0,object,exact,1.0
+plant matter fall,object,object_aggregate,other_branch,1.0,object_aggregate,other_branch,1.0,material_entity,more_general,1.0
+rainbow,object,object_aggregate,other_branch,0.6666666666666666,process,wrong_main_branch,1.0,continuant,more_general,0.5
+sleet pellet,object,object,exact,1.0,object,exact,1.0,object,exact,0.6666666666666666
+tributary glacier,object,object,exact,1.0,object,exact,1.0,material_entity,more_general,0.6666666666666666
+water-based cloud droplet,object,object,exact,1.0,object,exact,1.0,object,exact,0.6666666666666666
+acidic water-based rain,object_aggregate,object_aggregate,exact,1.0,object,other_branch,0.6666666666666666,material_entity,more_general,1.0
+falling sleet,object_aggregate,object_aggregate,exact,1.0,object_aggregate,exact,1.0,object_aggregate,exact,1.0
+falling snow,object_aggregate,object_aggregate,exact,1.0,object_aggregate,exact,1.0,object_aggregate,exact,1.0
+food production environmental monitoring zone 1,object_aggregate,object_aggregate,exact,1.0,object_aggregate,exact,1.0,object_aggregate,exact,1.0
+food production environmental monitoring zone 2,object_aggregate,object_aggregate,exact,1.0,object_aggregate,exact,1.0,object_aggregate,exact,1.0
+food production environmental monitoring zone 3,object_aggregate,object_aggregate,exact,1.0,object_aggregate,exact,1.0,object_aggregate,exact,1.0
+food production environmental monitoring zone 4,object_aggregate,object_aggregate,exact,1.0,object_aggregate,exact,1.0,object_aggregate,exact,1.0
+freezing rain,object_aggregate,object_aggregate,exact,1.0,object_aggregate,exact,0.6666666666666666,material_entity,more_general,1.0
+rain,object_aggregate,object_aggregate,exact,1.0,object_aggregate,exact,1.0,object_aggregate,exact,1.0
+water-based rain,object_aggregate,object_aggregate,exact,1.0,object_aggregate,exact,1.0,material_entity,more_general,0.6666666666666666
+benthic deep-sea mining,occurrent,process,more_specific,1.0,process,more_specific,1.0,process,more_specific,1.0
+crustacean farming process,occurrent,process,more_specific,1.0,process,more_specific,1.0,process,more_specific,1.0
+finfish farming process,occurrent,process,more_specific,1.0,process,more_specific,1.0,process,more_specific,1.0
+forestry,occurrent,process,more_specific,1.0,process,more_specific,1.0,process,more_specific,1.0
+hydrogen production process,occurrent,process,more_specific,1.0,process,more_specific,1.0,process,more_specific,1.0
+manufacturing process,occurrent,process,more_specific,1.0,process,more_specific,1.0,process,more_specific,1.0
+mining,occurrent,process,more_specific,1.0,process,more_specific,1.0,process,more_specific,1.0
+mollusc farming process,occurrent,process,more_specific,1.0,process,more_specific,1.0,process,more_specific,1.0
+quarrying,occurrent,process,more_specific,1.0,process,more_specific,1.0,process,more_specific,1.0
+sea bed mining,occurrent,process,more_specific,1.0,process,more_specific,1.0,process,more_specific,1.0
+usage of an environment for defence,occurrent,process,more_specific,1.0,process,more_specific,1.0,process,more_specific,1.0
+usage of an environment for recreation,occurrent,process,more_specific,1.0,process,more_specific,1.0,process,more_specific,1.0
+usage of an environment for transportation,occurrent,process,more_specific,1.0,process,more_specific,1.0,process,more_specific,1.0
+well intervention,occurrent,process,more_specific,1.0,process,more_specific,1.0,process,more_specific,1.0
+well stimulation,occurrent,process,more_specific,1.0,process,more_specific,1.0,process,more_specific,1.0
+cold season,one_dimensional_temporal_region,one_dimensional_temporal_region,exact,1.0,one_dimensional_temporal_region,exact,1.0,occurrent,more_general,1.0
+day,one_dimensional_temporal_region,one_dimensional_temporal_region,exact,1.0,one_dimensional_temporal_region,exact,1.0,one_dimensional_temporal_region,exact,1.0
+glaciation,one_dimensional_temporal_region,one_dimensional_temporal_region,exact,1.0,one_dimensional_temporal_region,exact,1.0,one_dimensional_temporal_region,exact,0.6666666666666666
+hours of sunshine,one_dimensional_temporal_region,one_dimensional_temporal_region,exact,1.0,one_dimensional_temporal_region,exact,1.0,one_dimensional_temporal_region,exact,1.0
+ice age,one_dimensional_temporal_region,one_dimensional_temporal_region,exact,1.0,history,other_branch,0.6666666666666666,one_dimensional_temporal_region,exact,1.0
+interglacial,one_dimensional_temporal_region,one_dimensional_temporal_region,exact,1.0,one_dimensional_temporal_region,exact,1.0,temporal_region,more_general,1.0
+monsoon season,one_dimensional_temporal_region,temporal_region,more_general,0.6666666666666666,process,other_branch,1.0,temporal_region,more_general,1.0
+rainy day,one_dimensional_temporal_region,one_dimensional_temporal_region,exact,1.0,one_dimensional_temporal_region,exact,1.0,one_dimensional_temporal_region,exact,0.6666666666666666
+season,one_dimensional_temporal_region,one_dimensional_temporal_region,exact,1.0,one_dimensional_temporal_region,exact,1.0,one_dimensional_temporal_region,exact,1.0
+warm season,one_dimensional_temporal_region,one_dimensional_temporal_region,exact,1.0,one_dimensional_temporal_region,exact,1.0,occurrent,more_general,1.0
+agricultural land conversion process,process,process,exact,1.0,process,exact,0.6666666666666666,process,exact,1.0
+air pollution,process,process,exact,1.0,process,exact,1.0,process,exact,1.0
+atmospheric aerosol formation,process,process,exact,1.0,process,exact,1.0,process,exact,1.0
+conservation-focused active ecosystem management process,process,process,exact,1.0,process,exact,1.0,process,exact,1.0
+ecosystem-wide respiration,process,process,exact,1.0,process,exact,1.0,process,exact,1.0
+foreshock,process,process,exact,1.0,process,exact,1.0,process,exact,1.0
+glacial transport process,process,process,exact,1.0,process,exact,1.0,process,exact,1.0
+hydrological process,process,process,exact,1.0,process,exact,1.0,process,exact,1.0
+iceberg calving process,process,process,exact,1.0,process,exact,1.0,process,exact,1.0
+new ice formation process,process,process,exact,1.0,process,exact,1.0,process,exact,1.0
+nucleation of cloud condensation,process,process,exact,1.0,process,exact,1.0,process,exact,1.0
+season generating process,process,process,exact,1.0,process,exact,1.0,process,exact,1.0
+storm surge process,process,process,exact,1.0,process,exact,1.0,process,exact,1.0
+X-ray stellar radiation,process,process,exact,1.0,process,exact,1.0,process,exact,1.0
+arable,quality,quality,exact,1.0,quality,exact,1.0,quality,exact,1.0
+dew point,quality,quality,exact,1.0,quality,exact,1.0,quality,exact,1.0
+geodiversity,quality,quality,exact,1.0,quality,exact,1.0,quality,exact,1.0
+humidity of soil,quality,quality,exact,1.0,quality,exact,1.0,quality,exact,1.0
+polar,quality,quality,exact,1.0,quality,exact,1.0,quality,exact,1.0
+proglacial,quality,quality,exact,1.0,quality,exact,1.0,quality,exact,1.0
+quality of a foam,quality,quality,exact,1.0,quality,exact,1.0,quality,exact,1.0
+sea surface height,quality,quality,exact,1.0,quality,exact,1.0,quality,exact,1.0
+soil layer top depth,quality,quality,exact,1.0,quality,exact,1.0,quality,exact,1.0
+solubility of carbon atom in environmental material,quality,disposition,other_branch,1.0,disposition,other_branch,1.0,specifically_dependent_continuant,more_general,1.0
+speed of soil water infiltration,quality,process_profile,wrong_main_branch,1.0,process_profile,wrong_main_branch,1.0,process_profile,wrong_main_branch,1.0
+subpolar,quality,quality,exact,1.0,quality,exact,1.0,quality,exact,1.0
+temperate,quality,quality,exact,1.0,quality,exact,1.0,specifically_dependent_continuant,more_general,0.6666666666666666
+temperature of environmental material,quality,quality,exact,1.0,quality,exact,1.0,quality,exact,1.0
+volume of evapotranspiration,quality,process_profile,wrong_main_branch,1.0,quality,exact,1.0,occurrent,wrong_main_branch,0.6666666666666666
+litter role,role,role,exact,1.0,role,exact,1.0,role,exact,1.0
+waste role,role,role,exact,1.0,role,exact,1.0,role,exact,1.0
+Hill sphere,site,site,exact,1.0,site,exact,1.0,site,exact,1.0
+induced magnetosphere,site,site,exact,1.0,site,exact,1.0,independent_continuant,more_general,1.0
+intrinsic magnetosphere,site,site,exact,0.6666666666666666,site,exact,1.0,continuant,more_general,1.0
+Lagrangian point,site,site,exact,1.0,site,exact,1.0,site,exact,1.0
+magnetosphere,site,site,exact,1.0,site,exact,1.0,site,exact,1.0
+cave entrance,two_dimensional_continuant_fiat_boundary,two_dimensional_continuant_fiat_boundary,exact,1.0,two_dimensional_continuant_fiat_boundary,exact,1.0,two_dimensional_continuant_fiat_boundary,exact,1.0
+shoreline,two_dimensional_continuant_fiat_boundary,two_dimensional_continuant_fiat_boundary,exact,1.0,two_dimensional_continuant_fiat_boundary,exact,1.0,two_dimensional_continuant_fiat_boundary,exact,1.0
+two-dimensional fiat ice surface,two_dimensional_continuant_fiat_boundary,two_dimensional_continuant_fiat_boundary,exact,1.0,two_dimensional_continuant_fiat_boundary,exact,1.0,two_dimensional_continuant_fiat_boundary,exact,1.0
+two-dimensional fiat water ice surface,two_dimensional_continuant_fiat_boundary,two_dimensional_continuant_fiat_boundary,exact,1.0,two_dimensional_continuant_fiat_boundary,exact,1.0,immaterial_entity,more_general,1.0

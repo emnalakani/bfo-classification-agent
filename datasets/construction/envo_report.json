@@ -1,0 +1,30 @@
+{
+  "ontology": "ENVO",
+  "native_classes": 4317,
+  "filters": {
+    "deprecated": 445,
+    "no_definition": 202,
+    "placeholder_definition": 21,
+    "no_bfo_ancestor": 182,
+    "kept": 3467
+  },
+  "per_bfo_class": {
+    "material_entity": 2493,
+    "process": 438,
+    "object": 200,
+    "fiat_object_part": 125,
+    "quality": 97,
+    "occurrent": 44,
+    "disposition": 36,
+    "object_aggregate": 10,
+    "one_dimensional_temporal_region": 10,
+    "site": 5,
+    "two_dimensional_continuant_fiat_boundary": 4,
+    "function": 2,
+    "role": 2,
+    "generically_dependent_continuant": 1
+  },
+  "direct_bfo_parent_share": 0.016,
+  "definition_names_bfo_class_share": 0.155,
+  "bfo_classes_mapped": 35
+}
